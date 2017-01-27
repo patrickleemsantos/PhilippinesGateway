@@ -1,0 +1,743 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SunMOMTSvc
+</name>
+</assembly>
+<members>
+<member name="F:SunMOMTSvc.UCPPacketException.rawPacket">
+-----------------------------------------------------------------------------
+ <summary>The packets that threw the exception</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.UCPPacketException">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Class		: UCPPacketException
+
+-----------------------------------------------------------------------------
+ <summary>Simple exception for packet errors</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	07-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.header.parseHeader(System.String)">
+-----------------------------------------------------------------------------
+ <summary>Takes an raw UCP packets and parses the headere so they corrospond</summary>
+	<param name="dump">Raw packets</param>
+	<remarks>use this to identify the type of packets</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.header.topacket">
+-----------------------------------------------------------------------------
+ <summary>Returns and string representing the header of the packet</summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.header.transaction_number">
+-----------------------------------------------------------------------------
+ <summary>Gets or sets the transaction number of the packets</summary>
+	<value>new transaction id, 2 octets</value>
+	<remarks>dont modify this manualy</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.header.LEN">
+-----------------------------------------------------------------------------
+ <summary>
+     Length of whole packets
+ </summary>
+	<value>Length, in 5 octets</value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.header.Operation">
+-----------------------------------------------------------------------------
+ <summary>Type of operation this pacets represents</summary>
+	<value>Sets the operation type.</value>
+	<remarks>Dont modify this manualy</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.header.is_Operation_or_Request">
+-----------------------------------------------------------------------------
+ <summary>Is this an operation go request ( acknowledgement ) packet </summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.header">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Class		: header
+
+-----------------------------------------------------------------------------
+ <summary>All UCP packets consist of an header byt this specefiktaion</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPPacket.#ctor">
+-----------------------------------------------------------------------------
+ <summary>Creates an "empty" packets</summary>
+	<remarks>after this, use create[type} tp create the packets you need</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPPacket.#ctor(System.String)">
+-----------------------------------------------------------------------------
+ <summary>Parses raw ucp data, in to a UCP packets object.</summary>
+	<param name="packetData"></param>
+	<remarks>use this to "read" packets, and to send acknowledgements back to smsc</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.success">
+-----------------------------------------------------------------------------
+ <summary>if this is an request packets, was the result an success ?</summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.error_message">
+-----------------------------------------------------------------------------
+ <summary>if not, what was the "custom" error messages from the SMSC</summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.last_errorcode">
+-----------------------------------------------------------------------------
+ <summary>error number, in enumeration form, for easy look up of text and/or number</summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.receiver">
+-----------------------------------------------------------------------------
+ <summary>
+     who was this messages sendt to.
+     typically mobil number but can be ip_address-port or other
+ </summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.Originator">
+-----------------------------------------------------------------------------
+ <summary>
+     who was this messages designated for.
+     typically mobil number but can be ip_address-port or other
+ </summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.Message">
+-----------------------------------------------------------------------------
+ <summary>Theres 3 types of messages. Numeric, AlphaNumeric and Binary messages. This finds the type in the packets and returns that.</summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.loadpacket">
+-----------------------------------------------------------------------------
+ <summary>Loads and RAW packets, and parses it to and UCP packets object</summary>
+	<value>The RAW packets</value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPPacket.createpacket">
+-----------------------------------------------------------------------------
+ <summary>Creates and ready-to-send packets by the data specefied on object</summary>
+	<value>RAW UCP packets</value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPPacket.acknowledgement(System.Boolean,System.String,SunMOMTSvc.Error_code)">
+-----------------------------------------------------------------------------
+ <summary>
+ modify packets to be and acknowledgement on an operation.
+ </summary>
+	<param name="posetive">Did we succesfullt understand and operated the operation =</param>
+	<param name="SystemMessage">Custom messages to system</param>
+	<param name="Errorcode">If an error, suply error number here</param>
+	<remarks>use this to reply to operation requests from SMSC. typecaly SMS receipts</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPPacket.CreateLoginPacket(System.String,System.String)">
+-----------------------------------------------------------------------------
+ <summary>Most SMSC requere login. This creates and authentication packets by using management operations.</summary>
+	<param name="uid"></param>
+	<param name="password"></param>
+	<remarks>dont send this, id SMSC dont requere you to logon</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.UCPPacket">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Class		: UCPPacket
+
+-----------------------------------------------------------------------------
+ <summary>represents an single UCP packets.</summary>
+	<remarks>use create[type} to create packet types.
+ for acknowledgement of packets, use acknowledgement and resend packets back to smsc</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.placeholder.UCP_STX">
+-----------------------------------------------------------------------------
+ <summary>Start of packets contain this</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.placeholder.UCP_ETX">
+-----------------------------------------------------------------------------
+ <summary>End of packets must contain this</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.placeholder.TransActionNumber">
+-----------------------------------------------------------------------------
+ <summary>Global counter for transaction ids for packets</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.placeholder.IsInteger(System.String)">
+-----------------------------------------------------------------------------
+ <summary>Checks if an string contains an integer value</summary>
+	<param name="value">string containing integer</param>
+	<returns>true if contains and integer, else returns false</returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	09-02-2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.placeholder.encodeIpPort(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>converts and ip and port, to something the smsc understands</summary>
+	<param name="Ip">the ip address</param>
+	<param name="port">the port</param>
+	<returns>an encoded string of ip and port</returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	09-02-2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.placeholder.decodeIpPort(System.String,System.String@,System.Int32@)">
+-----------------------------------------------------------------------------
+ <summary>Takes an SMSC formatet ip and port, and converts it to and easy
+ readeble ip address and port</summary>
+	<param name="Ipandport">SMSC port and ip</param>
+	<param name="ip">extractet ip address</param>
+	<param name="port">extractet port</param>
+	<remarks>return "" in ip and 0 in port, if input was not valid</remarks>
+	<history>
+ 	[bofh] 	09-02-2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.placeholder.StrToIA5(System.String)">
+-----------------------------------------------------------------------------
+ <summary>Converts ascii strings containing alphanumeric letters to an , IA5en coded encoded string</summary>
+	<param name="str">Ascii string to convert</param>
+	<returns>IA5 encoded string</returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.placeholder.IA5ToStr(System.String)">
+-----------------------------------------------------------------------------
+ <summary>Convert an IA5 encoded string, to an alphanumeric ascii string</summary>
+	<param name="str">IA5 encoded string</param>
+	<returns>alphanumeric ascii string</returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.placeholder">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Module		: placeholder
+
+-----------------------------------------------------------------------------
+ <summary>
+     Placeholder for enumerations and general functions
+ </summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.Notification_Type.Buffered_message_notification">
+-----------------------------------------------------------------------------
+ <summary>send notification when SMS could not be delivered but will tryed again later</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.Notification_Type.Delivery_Notification">
+-----------------------------------------------------------------------------
+ <summary>send notification when SMS messages has been delivered</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.Notification_Type.Non_delivery_notification">
+-----------------------------------------------------------------------------
+ <summary>send notification if SMS messages could not be delivered</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.Notification_Type">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Structure		: Notification_Type
+
+-----------------------------------------------------------------------------
+ <summary>
+     Types of notifications that can be requestet for sendt messages
+ </summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.Notification_PID">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Enum		: Notification_PID
+
+-----------------------------------------------------------------------------
+ <summary>Different protocols notifications can be delivered over</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.enumOR">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Enum		: enumOR
+
+-----------------------------------------------------------------------------
+ <summary>Types of messages that can be sent and received.
+ Operations often is something we need to do action on, and we will reseive and
+ "request" when the operation has been accepted
+ 
+ Requests are ofthen, responses to and operation.
+ 
+ f.eks Send "operation" to SMSC that we want to send an SMS
+ we then receive and "request" telling if the sms was accepted</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.enumOT">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Enum		: enumOT
+
+-----------------------------------------------------------------------------
+ <summary>
+ Different types of operations. 
+ Note that SMSC operations can only be sendt FROM an smsc, to an SMT
+ ( so we will receive these as operations, and we reply with an "request" )
+ SMT operations can only be sendt TO an sms
+ ( we send this to an SMSC, and in return we get an status "request" )
+ </summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.Error_code">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Enum		: Error_code
+
+-----------------------------------------------------------------------------
+ <summary>
+ Known error messages codes, regarding SMSC 4.6 EMI - UCP interface
+ </summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.SMSClient.onDebug">
+-----------------------------------------------------------------------------
+ <summary>This event triggers when these debug information. use when looking for errors</summary>
+	<param name="msg">debug messages</param>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.SMSClient.autoReconnect">
+-----------------------------------------------------------------------------
+ <summary>most SMSC dont allow continually connections, and will disconnect
+ clients after 5-10 minuts. this options lets SMSClient handle this for you
+ by automatily reconnect if we have been disconnected.
+ this value will be automatily set to false if we get an authentication error </summary>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.SMSClient.onDisconnect">
+-----------------------------------------------------------------------------
+ <summary>This event fires if we get disconnected from the SMSC</summary>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.SMSClient.onConnect">
+-----------------------------------------------------------------------------
+ <summary>This event fires when we have successfully connected to the SMSC</summary>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.SMSClient.login_success">
+-----------------------------------------------------------------------------
+ <summary>This event fires, if SMSC accepts login our login credentials</summary>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.SMSClient.login_failed">
+-----------------------------------------------------------------------------
+ <summary>This event fires if we gets rejected with our credentials</summary>
+	<param name="reason"></param>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.SMSClient.isAuthenticated">
+-----------------------------------------------------------------------------
+ <summary>Have we ben authenticatede by the SMSC successfully ?</summary>
+	<value></value>
+	<remarks>ignore this, if your account/smsc does not need to be authenticated</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.SMSClient.connected">
+-----------------------------------------------------------------------------
+ <summary>Are we connected to the SMSC. Dont use externally </summary>
+	<value></value>
+	<remarks>this property automaticly resumes connection with SMSC if
+ you have set autoReconnect to True ( its the default )</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.encodeIpAndPort(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>converts and ip and port, to something the smsc understands</summary>
+	<param name="Ip">the ip address</param>
+	<param name="port">the port</param>
+	<returns>an encoded string of ip and port</returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	09-02-2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.decodeIpAndPort(System.String,System.String@,System.Int32@)">
+-----------------------------------------------------------------------------
+ <summary>Takes an SMSC formatet ip and port, and converts it to and easy
+ readeble ip address and port</summary>
+	<param name="IpAndPort">SMSC port and ip</param>
+	<param name="ip">extractet ip address</param>
+	<param name="port">extractet port</param>
+	<remarks>return "" in ip and 0 in port, if input was not valid</remarks>
+	<history>
+ 	[bofh] 	09-02-2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.Reconnect(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>Reconnects to SMSC</summary>
+	<param name="SMSC_Host"></param>
+	<param name="SMSC_port"></param>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.login(System.String,System.String)">
+-----------------------------------------------------------------------------
+ <summary>Send login informations to SMSC</summary>
+	<param name="username">your account ID</param>
+	<param name="password">your password</param>
+	<remarks>if login fails, autoReconnect will be set to False</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.bind(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>If you have public IP, you can make the SMSC send receipts and SMS 
+ messages to your maskine. Use bind to make this class pickup the messages
+ from the smsc, and then you can react on those</summary>
+	<param name="LocalIP">sms clients internal IP or fqdn</param>
+	<param name="localport">port to listen on</param>
+	<remarks>This ip should be the maskines IP. if the IP is on an rfc1918 net
+ make sure you pat or nat the extern ip and port to this. then use
+ encodeIpAndPort to construct the ip and port smses should be sendt too</remarks>
+	<history>
+ 	[bofh] 	09-02-2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.#ctor(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>Creates an new instans of the SMS client and connects to the SMSC</summary>
+	<param name="SMSC_Host">host or IP of SMSC</param>
+	<param name="SMSC_port">port number on SMSC</param>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.#ctor(System.String,System.Int32,System.String,System.String)">
+-----------------------------------------------------------------------------
+ <summary>Creates an new instans of the SMS client and connects to the SMSC
+ and sends authentication packets ( logs on )</summary>
+	<param name="SMSC_Host">host or IP of SMSC</param>
+	<param name="SMSC_port">port number on SMSC</param>
+	<param name="username">user account ID</param>
+	<param name="password">user account password</param>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.SendSimpleSMS(System.String,System.String,System.String)">
+-----------------------------------------------------------------------------
+ <summary>a VERY simple way of sending sms messages via UCP</summary>
+	<param name="from">who is SMS from</param>
+	<param name="sto">who is SMS to</param>
+	<param name="msg">The alpha numeric messages</param>
+	<returns>false if messages could not be sendt</returns>
+	<remarks>by this function return true does not mean that the sms actually was sendt.
+ you need to use notifications requests  for this</remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.SMSClient.destroy">
+-----------------------------------------------------------------------------
+ <summary>To proberly close down listner, call this function before disposing object</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.SMSClient">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Class		: SMSClient
+
+-----------------------------------------------------------------------------
+ <summary>To simply thins use this class to easyly send and recieve SMS messages</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.UCPSocket.onDebug">
+-----------------------------------------------------------------------------
+ <summary>Event that fires when the socket has debug information</summary>
+	<param name="msg">debug messages</param>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.UCPSocket.Packet_recieved">
+-----------------------------------------------------------------------------
+ <summary>Fires when we have recieved an packet from SMSC</summary>
+	<param name="packet">An parsed packet</param>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.UCPSocket.onConnect">
+-----------------------------------------------------------------------------
+ <summary>Fires when socket has connected</summary>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.UCPSocket.onDisconnect">
+-----------------------------------------------------------------------------
+ <summary>Fires when socket gets disconnected</summary>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="P:SunMOMTSvc.UCPSocket.connected">
+-----------------------------------------------------------------------------
+ <summary>Is socket connected ?</summary>
+	<value></value>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPSocket.connect(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>
+     Connects to SMS_C
+ </summary>
+	<param name="hostname">host or IP to SMSC</param>
+	<param name="port">Port to communicatate with SMSC on</param>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPSocket.SendData(System.String)">
+-----------------------------------------------------------------------------
+ <summary>Send data RAW to SMSC</summary>
+	<param name="Msg">messages to send</param>
+	<returns>boolean indicating if submition completed successfully</returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPSocket.disconnect">
+-----------------------------------------------------------------------------
+ <summary>Disconnect from SMSC and fire OnDisconnect</summary>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.UCPSocket">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Class		: UCPSocket
+
+-----------------------------------------------------------------------------
+ <summary>Base socket for the SMS Client</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.UCPListener.onDebug">
+-----------------------------------------------------------------------------
+ <summary>Event that fires when the socket has debug information</summary>
+	<param name="msg">debug messages</param>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="E:SunMOMTSvc.UCPListener.Packet_recieved">
+-----------------------------------------------------------------------------
+ <summary>Fires when we have recieved an packet from SMSC</summary>
+	<param name="packet">An parsed packet</param>
+	<remarks></remarks>
+-----------------------------------------------------------------------------
+
+</member><member name="F:SunMOMTSvc.UCPListener.StopListener">
+-----------------------------------------------------------------------------
+ <summary>Set to True, to make listner close down</summary>
+-----------------------------------------------------------------------------
+
+</member><member name="M:SunMOMTSvc.UCPListener.bind(System.String,System.Int32)">
+-----------------------------------------------------------------------------
+ <summary>Binds to IP address and port</summary>
+	<param name="hostname">ip adddresse to listen on</param>
+	<param name="port">port to listen on, typpacly 5000 or 6000</param>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="T:SunMOMTSvc.UCPListener">
+-----------------------------------------------------------------------------
+ Project		: DOTUCPEMI
+ Class		: UCPListener
+
+-----------------------------------------------------------------------------
+ <summary>And simple listner to be used for picking up sms messages and delivery repports from SMSC</summary>
+	<remarks></remarks>
+	<history>
+ 	[bofh] 	06-02-2003	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

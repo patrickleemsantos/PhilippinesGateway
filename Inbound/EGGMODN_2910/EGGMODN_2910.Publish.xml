@@ -1,0 +1,25 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Alex Goh\Desktop\Alex\Project\Gateway_new\Philippines\precompiled\Gateway\EggMODN_2910\">
+    <file relUrl="bin/EGGMODN_2910.pdb" publishTime="01/02/2013 14:09:44" />
+    <file relUrl="bin/EGGMODN_2910.xml" publishTime="01/02/2013 14:09:44" />
+    <file relUrl="bin/EggMODNReceive.pdb" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="Web.config" publishTime="12/11/2012 09:45:06" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="12/20/2012 10:17:27" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="12/20/2012 10:17:27" />
+    <file relUrl="bin/SmartMOReceive.XmlSerializers.dll" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="12/20/2012 10:17:27" />
+    <file relUrl="bin/SmartMOReceive.pdb" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="Global.asax" publishTime="12/20/2012 10:42:53" />
+    <file relUrl="bin/EggMODNReceive.dll" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="EGGCheckSubsKw.aspx" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="EggReceiveMO_2910.aspx" publishTime="12/11/2012 15:14:59" />
+    <file relUrl="bin/SmartMOReceive.dll" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="bin/EGGMODNReceive.XmlSerializers.dll" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="bin/EGGMODNReceive.xml" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="bin/EGGMODN_2910.XmlSerializers.dll" publishTime="01/02/2013 14:09:45" />
+    <file relUrl="bin/EGGMODN_2910.dll" publishTime="01/02/2013 14:09:44" />
+    <file relUrl="bin/SmartMOReceive.xml" publishTime="08/06/2012 11:09:56" />
+    <file relUrl="EggReceiveDN_2910.aspx" publishTime="12/11/2012 15:14:48" />
+    <file relUrl="bin/log4net.dll" publishTime="08/06/2012 11:09:45" />
+  </publishTarget>
+</publishData>

@@ -1,0 +1,51 @@
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\SunUpdateOutbox.exe.config
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\SunUpdateOutbox.exe
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\SunUpdateOutbox.pdb
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\SunUpdateOutbox.xml
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\ALT.SMS.SmppClient.dll
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\DOTUCPEMI.dll
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\LibraryDAL.dll
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\log4net.dll
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\smscc.dll
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\LibraryDAL.pdb
+C:\gateway\coding\philipine\SunUpdateOutbox\bin\Release\LibraryDAL.xml
+C:\gateway\coding\philipine\SunUpdateOutbox\obj\Release\ResolveAssemblyReference.cache
+C:\gateway\coding\philipine\SunUpdateOutbox\obj\Release\SunUpdateOutbox.Resources.resources
+C:\gateway\coding\philipine\SunUpdateOutbox\obj\Release\SunUpdateOutbox.vbproj.GenerateResource.Cache
+C:\gateway\coding\philipine\SunUpdateOutbox\obj\Release\SunUpdateOutbox.exe
+C:\gateway\coding\philipine\SunUpdateOutbox\obj\Release\SunUpdateOutbox.xml
+C:\gateway\coding\philipine\SunUpdateOutbox\obj\Release\SunUpdateOutbox.pdb
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\SunUpdateOutbox.exe.config
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\SunUpdateOutbox.exe
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\SunUpdateOutbox.pdb
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\SunUpdateOutbox.xml
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\ALT.SMS.SmppClient.dll
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\DOTUCPEMI.dll
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\LibraryDAL.dll
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\log4net.dll
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\smscc.dll
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\LibraryDAL.pdb
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\bin\Release\LibraryDAL.xml
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\obj\Release\ResolveAssemblyReference.cache
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\obj\Release\SunUpdateOutbox.Resources.resources
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\obj\Release\SunUpdateOutbox.vbproj.GenerateResource.Cache
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\obj\Release\SunUpdateOutbox.exe
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\obj\Release\SunUpdateOutbox.xml
+C:\gateway\coding\Ph_v2\backend\SunUpdateOutbox\obj\Release\SunUpdateOutbox.pdb
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\SunUpdateOutbox.exe.config
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\SunUpdateOutbox.exe
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\SunUpdateOutbox.pdb
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\SunUpdateOutbox.xml
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\ALT.SMS.SmppClient.dll
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\DOTUCPEMI.dll
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\log4net.dll
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\smscc.dll
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\bin\Release\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\obj\Release\SunUpdateOutbox.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\obj\Release\SunUpdateOutbox.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\obj\Release\SunUpdateOutbox.exe
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\obj\Release\SunUpdateOutbox.xml
+D:\CDU\Source Code\PhilippinesGateway\SunUpdateOutbox\obj\Release\SunUpdateOutbox.pdb

@@ -1,0 +1,228 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\CDU\Desktop\Gateway\">
+    <file relUrl="Global.asax" publishTime="08/26/2013 16:23:24" />
+    <file relUrl="getSubs.aspx" publishTime="08/26/2013 16:23:24" />
+    <file relUrl="bin/SendSMS.xml" publishTime="09/24/2013 16:16:57" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="09/24/2013 16:16:56" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="09/24/2013 16:16:56" />
+    <file relUrl="Web.config" publishTime="08/26/2013 16:23:24" />
+    <file relUrl="sendsms.aspx" publishTime="08/26/2013 16:23:24" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="09/24/2013 16:16:56" />
+    <file relUrl="UnSubs.aspx" publishTime="08/26/2013 16:23:24" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="09/24/2013 16:16:57" />
+    <file relUrl="bin/SendSMS.dll" publishTime="09/24/2013 16:16:57" />
+    <file relUrl="bin/log4net.dll" publishTime="08/26/2013 16:22:23" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\gateway\publish\">
+    <file relUrl="Global.asax" publishTime="06/03/2013 16:51:35" />
+    <file relUrl="getSubs.aspx" publishTime="06/03/2013 16:51:35" />
+    <file relUrl="bin/SendSMS.xml" publishTime="07/02/2013 17:42:30" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="07/01/2013 11:13:32" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="07/01/2013 11:13:32" />
+    <file relUrl="Web.config" publishTime="06/03/2013 17:01:20" />
+    <file relUrl="sendsms.aspx" publishTime="06/03/2013 16:51:35" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="07/01/2013 11:13:32" />
+    <file relUrl="UnSubs.aspx" publishTime="06/03/2013 16:51:35" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="07/02/2013 17:42:30" />
+    <file relUrl="bin/SendSMS.dll" publishTime="07/02/2013 17:42:30" />
+    <file relUrl="bin/log4net.dll" publishTime="05/03/2013 11:48:55" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Alex\Desktop\Desktop\Alex\Project\Gateway_new\Philippines\precompiled\Gateway\SendSMS\">
+    <file relUrl="Global.asax" publishTime="08/06/2012 11:09:39" />
+    <file relUrl="getSubs.aspx" publishTime="12/14/2012 10:51:23" />
+    <file relUrl="bin/SendSMS.xml" publishTime="04/29/2013 11:58:04" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="04/16/2013 17:42:00" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="04/16/2013 17:42:00" />
+    <file relUrl="Web.config" publishTime="08/06/2012 11:09:38" />
+    <file relUrl="sendsms.aspx" publishTime="08/06/2012 11:09:38" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="04/16/2013 17:42:00" />
+    <file relUrl="UnSubs.aspx" publishTime="12/14/2012 10:51:23" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="04/29/2013 11:58:04" />
+    <file relUrl="bin/SendSMS.dll" publishTime="04/29/2013 11:58:04" />
+    <file relUrl="bin/log4net.dll" publishTime="08/06/2012 11:09:45" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\wesley\Desktop\bulk_wcf\">
+    <file relUrl="bin/log4net.dll" publishTime="02/05/2013 12:07:43" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="Global.asax" publishTime="02/05/2013 12:07:31" />
+    <file relUrl="Web.config" publishTime="02/05/2013 12:07:31" />
+    <file relUrl="bin/SendSMS.xml" publishTime="03/06/2013 11:21:05" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="02/05/2013 13:40:18" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="02/05/2013 13:40:18" />
+    <file relUrl="UnSubs.aspx" publishTime="02/05/2013 12:07:31" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="02/07/2013 11:02:36" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="02/05/2013 13:40:18" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="02/25/2013 18:04:30" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="02/07/2013 11:02:36" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="02/25/2013 18:04:30" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="sendsms.aspx" publishTime="02/05/2013 12:07:31" />
+    <file relUrl="bin/SendSMS.dll" publishTime="03/06/2013 11:21:05" />
+    <file relUrl="bin/.svn/entries" publishTime="02/25/2013 18:04:30" />
+    <file relUrl="getSubs.aspx" publishTime="02/05/2013 12:07:31" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="02/25/2013 18:04:30" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="02/05/2013 12:07:29" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="03/06/2013 11:21:05" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\PHPSendSMSAPI_CP_20120425\">
+    <file relUrl="bin/log4net.dll" publishTime="01/16/2012 12:43:32" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="Global.asax" publishTime="01/16/2012 12:43:26" />
+    <file relUrl="Web.config" publishTime="04/24/2012 17:16:23" />
+    <file relUrl="bin/SendSMS.xml" publishTime="04/25/2012 11:40:01" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="04/24/2012 15:47:47" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="03/14/2012 15:53:15" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="04/24/2012 15:47:47" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="04/24/2012 15:47:47" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="03/14/2012 15:53:14" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="03/14/2012 15:53:15" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="03/14/2012 15:53:14" />
+    <file relUrl="sendsms.aspx" publishTime="01/16/2012 12:43:25" />
+    <file relUrl="bin/SendSMS.dll" publishTime="04/25/2012 11:40:01" />
+    <file relUrl="bin/.svn/entries" publishTime="03/14/2012 16:10:05" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="03/14/2012 15:53:15" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="04/25/2012 11:40:01" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\PHPSendSMSAPI_CP_20120318\">
+    <file relUrl="bin/log4net.dll" publishTime="01/16/2012 12:43:32" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="Global.asax" publishTime="01/16/2012 12:43:26" />
+    <file relUrl="Web.config" publishTime="03/01/2012 18:04:18" />
+    <file relUrl="bin/SendSMS.xml" publishTime="03/18/2012 16:51:51" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="03/18/2012 16:51:49" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="03/14/2012 15:53:15" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="03/18/2012 16:51:49" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="03/18/2012 16:51:49" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="03/14/2012 15:53:14" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="03/14/2012 15:53:15" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="03/14/2012 15:53:14" />
+    <file relUrl="sendsms.aspx" publishTime="01/16/2012 12:43:25" />
+    <file relUrl="bin/SendSMS.dll" publishTime="03/18/2012 16:51:51" />
+    <file relUrl="bin/.svn/entries" publishTime="03/14/2012 16:10:05" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="03/14/2012 15:53:15" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="03/18/2012 16:51:51" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\SendSMSAPI_CP_20120301\">
+    <file relUrl="bin/log4net.dll" publishTime="01/16/2012 12:43:32" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="Global.asax" publishTime="01/16/2012 12:43:26" />
+    <file relUrl="Web.config" publishTime="03/01/2012 18:04:18" />
+    <file relUrl="bin/SendSMS.xml" publishTime="03/01/2012 18:05:23" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="02/27/2012 15:47:38" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="02/27/2012 15:47:38" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="02/27/2012 15:47:38" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="sendsms.aspx" publishTime="01/16/2012 12:43:25" />
+    <file relUrl="bin/SendSMS.dll" publishTime="03/01/2012 18:05:23" />
+    <file relUrl="bin/.svn/entries" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="03/01/2012 18:05:23" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\SendSMSAPI_CP_20120131\">
+    <file relUrl="bin/log4net.dll" publishTime="01/16/2012 12:43:32" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="Global.asax" publishTime="01/16/2012 12:43:26" />
+    <file relUrl="Web.config" publishTime="01/16/2012 12:43:25" />
+    <file relUrl="bin/SendSMS.xml" publishTime="01/31/2012 16:13:42" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="01/31/2012 16:13:40" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="01/31/2012 16:13:40" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="01/31/2012 16:13:40" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="sendsms.aspx" publishTime="01/16/2012 12:43:25" />
+    <file relUrl="bin/SendSMS.dll" publishTime="01/31/2012 16:13:42" />
+    <file relUrl="bin/.svn/entries" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="01/16/2012 12:43:22" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="01/16/2012 12:43:21" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="01/31/2012 16:13:42" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\SendSMSAPI_CP_20111124\">
+    <file relUrl="bin/log4net.dll" publishTime="09/28/2011 18:13:40" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="10/12/2011 19:17:08" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="Global.asax" publishTime="09/28/2011 18:13:38" />
+    <file relUrl="Web.config" publishTime="10/31/2011 12:32:32" />
+    <file relUrl="bin/SendSMS.xml" publishTime="11/24/2011 14:47:18" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="11/17/2011 17:59:32" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="11/17/2011 17:59:32" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="11/17/2011 17:59:32" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="10/12/2011 19:17:05" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="10/12/2011 19:17:09" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="10/12/2011 19:17:10" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="09/28/2011 18:13:34" />
+    <file relUrl="sendsms.aspx" publishTime="11/24/2011 14:47:07" />
+    <file relUrl="bin/SendSMS.dll" publishTime="11/24/2011 14:47:18" />
+    <file relUrl="bin/.svn/entries" publishTime="10/12/2011 19:17:12" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="09/28/2011 18:13:34" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="10/12/2011 19:17:12" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="10/12/2011 19:17:08" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="11/24/2011 14:47:18" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\SendSMSAPI_CP_20111117\">
+    <file relUrl="bin/log4net.dll" publishTime="09/28/2011 18:13:40" />
+    <file relUrl="bin/.svn/text-base/SendSMS.xml.svn-base" publishTime="10/12/2011 19:17:08" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.xml.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="Global.asax" publishTime="09/28/2011 18:13:38" />
+    <file relUrl="Web.config" publishTime="10/31/2011 12:32:32" />
+    <file relUrl="bin/SendSMS.xml" publishTime="11/17/2011 17:59:39" />
+    <file relUrl="bin/.svn/text-base/log4net.dll.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="11/17/2011 17:59:32" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.pdb.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="11/17/2011 17:59:32" />
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="11/17/2011 17:59:32" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.dll.svn-base" publishTime="10/12/2011 19:17:05" />
+    <file relUrl="bin/.svn/text-base/SendSMS.dll.svn-base" publishTime="10/12/2011 19:17:09" />
+    <file relUrl="bin/.svn/text-base/LibraryDAL.pdb.svn-base" publishTime="10/12/2011 19:17:10" />
+    <file relUrl="bin/.svn/prop-base/LibraryDAL.dll.svn-base" publishTime="09/28/2011 18:13:34" />
+    <file relUrl="sendsms.aspx" publishTime="09/28/2011 18:13:37" />
+    <file relUrl="bin/SendSMS.dll" publishTime="11/17/2011 17:59:39" />
+    <file relUrl="bin/.svn/entries" publishTime="10/12/2011 19:17:12" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.dll.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/.svn/prop-base/SendSMS.pdb.svn-base" publishTime="09/28/2011 18:13:34" />
+    <file relUrl="bin/.svn/text-base/SendSMS.pdb.svn-base" publishTime="10/12/2011 19:17:08" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="10/12/2011 19:17:12" />
+    <file relUrl="bin/.svn/prop-base/log4net.dll.svn-base" publishTime="09/28/2011 18:13:35" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="11/17/2011 17:59:39" />
+  </publishTarget>
+</publishData>

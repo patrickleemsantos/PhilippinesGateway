@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" requirePermission="false"/>
+  </configSections>
+  <log4net>
+    <appender name="app" type="log4net.Appender.RollingFileAppender">
+      <file value="E:\PhilippineGateway\Logs\Outbound\EGG\EGGMT_2910\MT.log"/>
+      <appendToFile value="true"/>
+      <datePattern value="yyyyMMdd"/>
+      <rollingStyle value="Size" />
+      <maxSizeRollBackups value="50"/>
+      <maximumFileSize value="50MB"/>
+      <filter type="log4net.Filter.LevelRangeFilter">
+        <acceptOnMatch value="true"/>
+        <levelMin value="INFO"/>
+        <levelMax value="INFO"/>
+      </filter>
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%date - %message%newline"/>
+      </layout>
+    </appender>
+    <appender name="app2" type="log4net.Appender.RollingFileAppender">
+      <file value="E:\PhilippineGateway\Logs\Outbound\EGG\EGGMT_2910\Error.log"/>
+      <appendToFile value="true"/>
+      <rollingStyle value="Size" />
+      <maxSizeRollBackups value="10"/>
+      <maximumFileSize value="50MB"/>
+      <filter type="log4net.Filter.LevelRangeFilter">
+        <acceptOnMatch value="true"/>
+        <levelMin value="ERROR"/>
+        <levelMax value="ERROR"/>
+      </filter>
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%date - %message%newline"/>
+      </layout>
+    </appender>
+    <appender name="app3" type="log4net.Appender.RollingFileAppender">
+      <file value="E:\PhilippineGateway\Logs\Outbound\EGG\EGGMT_2910\Application.log"/>
+      <appendToFile value="true"/>
+      <rollingStyle value="Size" />
+      <maxSizeRollBackups value="10"/>
+      <maximumFileSize value="50MB"/>
+      <filter type="log4net.Filter.LevelRangeFilter">
+        <acceptOnMatch value="true"/>
+        <levelMin value="FATAL"/>
+        <levelMax value="FATAL"/>
+      </filter>
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%date -  %message%newline"/>
+      </layout>
+    </appender>
+
+    <root>
+      <level value="ALL"/>
+      <appender-ref ref="app"/>
+      <appender-ref ref="app2"/>
+      <appender-ref ref="app3"/>
+    </root>
+  </log4net>
+  <appSettings>
+    <add key="death_queue" value=".\Private$\egg_2910_mtdeath"/>
+    <add key="Insert_queue" value="FormatName:DIRECT=TCP:192.168.63.10\Private$\outboxinsert"/>
+    <add key="gateway_queue" value=".\Private$\egg_2910_mt"/>
+    <add key="unsub_queue" value=""/>
+    <add key="SuccessResponseCode" value=",200,"/>
+
+    <add key="Subscription_URL" value="http://202.126.44.134/mdp2/api/cherry.php"/>
+    <add key="EWar_URL" value="http://202.126.44.134/mdp2/api/cherry.php"/>
+    <add key="maxworker" value="100"/>
+    <add key="maxthread" value="50"/>
+    <add key="RetryCount" value="3"/>
+    <add key="PostURLTimeOut" value="20"/>
+    <add key="ConnectionString" value="Data Source=192.168.63.10;Initial Catalog=premiumsms;Persist Security Info=True;User ID=PremiumSMSMTSvc;Password=smsmt@0011"/>
+    <add key="mySqlConn" value="Server=119.81.44.205;Database=premium_sms_cp;Uid=developer;Pwd=jfr3u9t" />
+    
+  </appSettings>
+  <system.serviceModel>
+    <bindings />
+    <client />
+  </system.serviceModel>
+</configuration>

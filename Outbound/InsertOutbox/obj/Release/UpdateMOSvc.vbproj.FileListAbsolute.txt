@@ -1,0 +1,41 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\db.hbm.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\UpdateMOSvc.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\UpdateMOSvc.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\UpdateMOSvc.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\UpdateMOSvc.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\UpdateMOSvc.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\DBClass.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\Library.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\MySql.Data.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\DBClass.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\DBClass.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\log4net.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\bin\Release\Library.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Eddy\PremiumMagent_Web\UpdateMOSvc\obj\Release\UpdateMOSvc.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\UpdateMOSvc.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\UpdateMOSvc.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\UpdateMOSvc.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\UpdateMOSvc.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\UpdateMOSvc.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\MySql.Data.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\log4net.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\InsertMO\obj\Release\UpdateMOSvc.application

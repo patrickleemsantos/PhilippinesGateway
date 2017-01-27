@@ -1,0 +1,23 @@
+PhilippineGateway Test Use
+
+
+PremiumSMSAPI
+user=test&pass=test1234&to=1234&sc=1234&serviceid=1&type=1&msg=testmessage1&charge=30&url=&telcoid=1&msgid=123456
+
+MO Test
+http://localhost:52173/SmartReceiveMO.aspx?UD=;NEWS;123456;1&OA=612345678&DA=1234
+
+user=test&pass=test1234&to=612345678&sc=1234&serviceid=1&type=1&msg=testmessage1&charge=0&url=&telcoid=1&msgid=123456
+
+
+sc create "MODeath" binpath= "C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\MO_Death\bin\Release\MO_Death.exe" displayname= "MODeath" start= "auto"
+
+
+Summary OF Smart MT ResponseCode
+retry 
+-950,960,400,500
+insert 
+-200,952,953,954 - success
+-316,318,319,320,322,321,973,974,975,958
+insert,unsub
+-971,956,951,955

@@ -1,0 +1,106 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\EGGMT.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\EGGMT.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\log4net.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\EGGMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\EGGMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\EGGMT\obj\Release\EGGMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\EGGMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\EGGMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\obj\Release\EGGMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\EGGMT\obj\Release\EGGMT.pdb
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\EGGMT.exe
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\EGGMT.pdb
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\log4net.dll
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\obj\Release\EGGMT.exe
+C:\project\Philipine\Updated\backend\Outbound\EGGMT\obj\Release\EGGMT.pdb
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\EGGMT.exe
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\EGGMT.pdb
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\log4net.dll
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\MySql.Data.dll
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\obj\Release\EGGMT.exe
+C:\gateway\coding\Ph_v2\backend\Outbound\EGGMT\obj\Release\EGGMT.pdb
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.exe
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.pdb
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\log4net.dll
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\MySql.Data.dll
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.exe
+C:\Users\CDU\Desktop\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.exe.config
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.exe
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\EGGMT.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\log4net.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\bin\Release\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.ProjectInstaller.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.exe
+D:\CDU\Source Code\PhilippinesGateway\Outbound\EGGMT\obj\Release\EGGMT.pdb

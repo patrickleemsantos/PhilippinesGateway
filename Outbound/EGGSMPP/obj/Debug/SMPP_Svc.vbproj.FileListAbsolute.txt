@@ -1,0 +1,42 @@
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\SMPP_Svc.exe
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\SMPP_Svc.pdb
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\ALT.SMS.SmppClient.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\log4net.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\MySql.Data.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\NHibernate.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Castle.DynamicProxy2.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Castle.Core.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Iesi.Collections.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Castle.DynamicProxy2.xml
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Castle.Core.xml
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\log4net.xml
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Iesi.Collections.xml
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\NHibernate.xml
+C:\Ionnex\BulkSMPP\SMPP_Svc\obj\Debug\ResolveAssemblyReference.cache
+C:\Ionnex\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.Resources.resources
+C:\Ionnex\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.ProjectInstaller.resources
+C:\Ionnex\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.vbproj.GenerateResource.Cache
+C:\Ionnex\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.exe
+C:\Ionnex\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.pdb
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\SMPP_Svc.exe.config
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\DBClass.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Library.dll
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\DBClass.pdb
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\DBClass.xml
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Library.pdb
+C:\Ionnex\BulkSMPP\SMPP_Svc\bin\Debug\Library.xml
+C:\release\SMPP_Svc\SMPP_Svc.exe.config
+C:\release\SMPP_Svc\SMPP_Svc.exe
+C:\release\SMPP_Svc\SMPP_Svc.pdb
+C:\release\SMPP_Svc_IPEndPoint\SMPP_Svc.exe.config
+C:\release\SMPP_Svc_IPEndPoint\SMPP_Svc.exe
+C:\release\SMPP_Svc_IPEndPoint\SMPP_Svc.pdb
+C:\Projects\BulkSMPP\SMPP_Svc\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.Resources.resources
+C:\Projects\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.ProjectInstaller.resources
+C:\Projects\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.vbproj.GenerateResource.Cache
+C:\Projects\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.exe
+C:\Projects\BulkSMPP\SMPP_Svc\obj\Debug\SMPP_Svc.pdb
+C:\Documents and Settings\Eddie\Desktop\testSMPPclient\SMPP_Svc.exe.config
+C:\Documents and Settings\Eddie\Desktop\testSMPPclient\SMPP_Svc.exe
+C:\Documents and Settings\Eddie\Desktop\testSMPPclient\SMPP_Svc.pdb

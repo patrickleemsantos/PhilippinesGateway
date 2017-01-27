@@ -1,0 +1,35 @@
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\bin\Release\eggTest.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\bin\Release\eggTest.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\bin\Release\eggTest.xml
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\obj\Release\ResolveAssemblyReference.cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\obj\Release\eggTest.Resources.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\obj\Release\eggTest.vbproj.GenerateResource.Cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\obj\Release\eggTest.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\obj\Release\eggTest.xml
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\eggTest\obj\Release\eggTest.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\obj\Release\eggTest.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\obj\Release\eggTest.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\obj\Release\eggTest.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\eggTest.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\eggTest.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\eggTest.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\obj\Release\eggTest.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\eggTest\obj\Release\eggTest.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\eggTest.exe
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\eggTest.pdb
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\eggTest.xml
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\log4net.dll
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\eggTest\bin\Release\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\eggTest\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\eggTest\obj\Release\eggTest.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\eggTest\obj\Release\eggTest.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\eggTest\obj\Release\eggTest.exe
+D:\CDU\Source Code\PhilippinesGateway\eggTest\obj\Release\eggTest.xml
+D:\CDU\Source Code\PhilippinesGateway\eggTest\obj\Release\eggTest.pdb

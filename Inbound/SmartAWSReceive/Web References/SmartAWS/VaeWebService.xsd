@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webservice.vae.ngin/" targetNamespace="http://webservice.vae.ngin/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ticket" type="tns:ticket" />
+  <xs:element name="ticketResponse" type="tns:ticketResponse" />
+  <xs:complexType name="ticket">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="msisdn" type="xs:string" />
+      <xs:element minOccurs="0" name="accessCode" type="xs:string" />
+      <xs:element minOccurs="0" name="keyword" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ticketResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:vaeWSResponseData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vaeWSResponseData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="error" type="xs:string" />
+      <xs:element minOccurs="0" name="responseCode" type="xs:string" />
+      <xs:element name="svcID" type="xs:int" />
+      <xs:element minOccurs="0" name="txnCode" type="xs:string" />
+      <xs:element minOccurs="0" name="vaeRRN" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,200 @@
+﻿Imports LibraryDAL
+Imports System.Security.Cryptography.X509Certificates
+Imports System.Net.Security
+Imports System.Net
+Imports LibraryDAL.Extensions
+
+Partial Public Class smsin_stop
+    Inherits System.Web.UI.Page
+
+    Private Shared ReadOnly logger As log4net.ILog = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.ToString)
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim message As String = RequestData("message")
+        Dim MSISDN As String = RequestData("from")
+        Dim TransactionID As String = RequestData("msgid")
+        Dim shortcode As String = RequestData("sc")
+        Dim serviceID As String = RequestData("serviceid")
+        Dim telcoID As String = RequestData("telcoid")
+
+        Dim UserCRUD As New UserCRUD
+        Dim KeywordCRUD As New KeywordCRUD
+        Dim KeywordInfo As Tbl_Keyword
+        Dim UserStatus As Integer = 0
+        Dim Result As Integer = 0
+        Dim PostResponse As String = ""
+        Dim msgData As String = ""
+        Dim URLData As String = ""
+        Dim URLPostResult As String = ""
+
+        Dim objInfo As String = "Message=" & message & ";" & _
+                                          "From=" & MSISDN & ";" & _
+                                          "MsgID=" & TransactionID & ";" & _
+                                          "ShortCode=" & shortcode & ";" & _
+                                          "ServiceID=" & serviceID & ";" & _
+                                          "TelcoID=" & telcoID & ";"
+
+        Try
+
+            If serviceID = "" Or shortcode = "" Or telcoID = "" Or MSISDN = "" Or message = "" Then
+                Throw New Exception("Empty Info")
+            End If
+
+            KeywordInfo = KeywordCRUD.GetKeywordInfo_byKeywordID(serviceID) ' check keyword to get Keyword Type
+
+            UserStatus = UserCRUD.CheckUserSubs(MSISDN, serviceID) ' check user status 
+            If UserStatus > 0 Then
+                Result = UserCRUD.UpdateUserSubs(MSISDN, serviceID, TransactionID, General.UserStatus._Inactive) ' inactive user
+
+                If UserStatus = General.UserStatus._Inactive And telcoID = General.TelcoID._Smart Then
+                    URLData = "user=" & APIUserName & _
+                                      "&pass=" & APIPass & _
+                                      "&to=" & MSISDN & _
+                                      "&sc=" & shortcode & _
+                                      "&type=" & CStr(MsgType.TextSMS) & _
+                                      "&msg=" & System.Web.HttpUtility.UrlEncode(KeywordInfo.Keyword & ":" & StopAlreadyUnSubsService) & _
+                                      "&charge=0" & _
+                                      "&telcoid=" & telcoID & _
+                                      "&msgid=" & TransactionID & _
+                                      "&serviceid=" & SmartInvalidReplyKW & _
+                                      "&other=stop"
+
+                    URLPostResult = WebURLPost(APIUrl, URLData, TimeOutPostToAPI)
+                    logger.Info("[STOP]" & objInfo & ";" & APIUrl & "?" & URLData & ";Result=" & URLPostResult)
+
+                ElseIf UserStatus = General.UserStatus._Active And telcoID = General.TelcoID._Smart Then
+                    URLData = "user=" & APIUserName & _
+                                    "&pass=" & APIPass & _
+                                    "&to=" & MSISDN & _
+                                    "&sc=" & shortcode & _
+                                    "&type=" & CStr(MsgType.TextSMS) & _
+                                    "&msg=" & System.Web.HttpUtility.UrlEncode(KeywordInfo.Keyword & ":" & UnSubsMessage.Replace("#Keyword", KeywordInfo.Keyword)) & _
+                                    "&charge=0" & _
+                                    "&telcoid=" & telcoID & _
+                                    "&msgid=" & TransactionID & _
+                                    "&serviceid=" & SmartInvalidReplyKW & _
+                                    "&other=stop"
+
+                    URLPostResult = WebURLPost(APIUrl, URLData, TimeOutPostToAPI)
+                    logger.Info("[STOP]" & objInfo & ";" & APIUrl & "?" & URLData & ";Result=" & URLPostResult)
+
+                End If
+
+                If UserStatus = General.UserStatus._Inactive And telcoID = General.TelcoID._Sun Then
+                    URLData = "user=" & SunAPIUserName & _
+                                      "&pass=" & SunAPIPass & _
+                                      "&to=" & MSISDN & _
+                                      "&sc=" & shortcode & _
+                                      "&type=" & CStr(MsgType.TextSMS) & _
+                                      "&msg=" & System.Web.HttpUtility.UrlEncode(SunStopAlreadyUnSubsService) & _
+                                      "&charge=0" & _
+                                      "&telcoid=" & telcoID & _
+                                      "&msgid=" & TransactionID & _
+                                      "&serviceid=" & KeywordInfo.KeywordID & _
+                                      "&other=OFF"
+
+                    URLPostResult = WebURLPost(APIUrl, URLData, TimeOutPostToAPI)
+                    logger.Info("[STOP]" & objInfo & ";" & APIUrl & "?" & URLData & ";Result=" & URLPostResult)
+
+                ElseIf UserStatus = General.UserStatus._Active And telcoID = General.TelcoID._Sun Then
+                    URLData = "user=" & SunAPIUserName & _
+                                    "&pass=" & SunAPIPass & _
+                                    "&to=" & MSISDN & _
+                                    "&sc=" & shortcode & _
+                                    "&type=" & CStr(MsgType.TextSMS) & _
+                                    "&msg=" & System.Web.HttpUtility.UrlEncode(SunUnSubsMessage.Replace("#Keyword", KeywordInfo.Keyword)) & _
+                                    "&charge=0" & _
+                                    "&telcoid=" & telcoID & _
+                                    "&msgid=" & TransactionID & _
+                                    "&serviceid=" & KeywordInfo.KeywordID & _
+                                    "&other=OFF"
+
+                    URLPostResult = WebURLPost(APIUrl, URLData, TimeOutPostToAPI)
+                    logger.Info("[STOP]" & objInfo & ";" & APIUrl & "?" & URLData & ";Result=" & URLPostResult)
+
+                End If
+
+            Else
+                Dim TempMessage() As String
+                TempMessage = Split(message, " ").RemoveGap  ' split the message by spacing
+
+                If telcoID = General.TelcoID._Smart And TempMessage(1).ToUpper <> "ALL" Then ' not subs message and not stop all message
+                    'Commented by Patrick 10/29/2013
+                    'Description: Use double opt-out message when user no record on DB
+                    'URLData = "user=" & APIUserName & _
+                    '   "&pass=" & APIPass & _
+                    '   "&to=" & MSISDN & _
+                    '   "&sc=" & shortcode & _
+                    '   "&type=" & CStr(MsgType.TextSMS) & _
+                    '   "&msg=" & System.Web.HttpUtility.UrlEncode(StopMessageNotSubs) & _
+                    '   "&charge=0" & _
+                    '   "&telcoid=" & telcoID & _
+                    '   "&msgid=" & TransactionID & _
+                    '   "&serviceid=" & SmartInvalidReplyKW & _
+                    '   "&other=help"
+
+                    URLData = "user=" & APIUserName & _
+                              "&pass=" & APIPass & _
+                              "&to=" & MSISDN & _
+                              "&sc=" & shortcode & _
+                              "&type=" & CStr(MsgType.TextSMS) & _
+                              "&msg=" & System.Web.HttpUtility.UrlEncode(KeywordInfo.Keyword & ":" & StopAlreadyUnSubsService) & _
+                              "&charge=0" & _
+                              "&telcoid=" & telcoID & _
+                              "&msgid=" & TransactionID & _
+                              "&serviceid=" & SmartInvalidReplyKW & _
+                              "&other=stop"
+
+                    URLPostResult = WebURLPost(APIUrl, URLData, TimeOutPostToAPI)
+                    logger.Info("[STOP]" & objInfo & ";" & APIUrl & "?" & URLData & ";Result=" & URLPostResult)
+                End If
+                objInfo = objInfo & "; User Not Found "
+            End If
+
+            If KeywordInfo.MOUrl <> "" Then
+                msgData = "msgid=" & System.Web.HttpUtility.UrlDecode(TransactionID) & _
+                                  "&from=" & MSISDN & _
+                                  "&message=" & System.Web.HttpUtility.UrlDecode(message) & _
+                                  "&sc=" & shortcode & _
+                                   "&telcoid=" & telcoID & _
+                                   "&serviceid=" & serviceID
+
+                'forward to MO Forward Queue
+                Dim MOForwardStrc As New LibraryDAL.MOForwardStrc
+                With MOForwardStrc
+                    .URL = KeywordInfo.MOUrl
+                    .URLData = msgData
+                End With
+
+                dumpToQueue(MOForwardQueue, MOForwardStrc)
+            End If
+
+            logger.Info("[STOP]" & objInfo & "; " & PostResponse.Trim)
+
+        Catch ex As Exception
+            logger.Fatal("[FATAL]" & objInfo)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+
+    End Sub
+
+    Public Function RequestData(ByVal strName As String) As String
+        Dim strReturn As String = ""
+        Try
+
+            strReturn = Request.QueryString(strName)
+            If strReturn = "" Then
+                strReturn = System.Web.HttpUtility.UrlDecode(Request.Form(strName))
+            End If
+            If strReturn <> "" Then
+                strReturn = strReturn.Trim
+                Return strReturn
+            Else
+                Return ""
+            End If
+        Catch ex As Exception
+            Return ""
+        End Try
+    End Function
+
+End Class

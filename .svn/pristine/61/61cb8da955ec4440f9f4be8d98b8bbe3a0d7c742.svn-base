@@ -1,0 +1,443 @@
+﻿Imports System.Messaging
+Imports System.Configuration
+Imports LibraryDAL
+Imports System.Web
+
+Public Delegate Sub AddToDelegate(ByVal body As LibraryDAL.Tbl_Outbox)
+Public Class InsertOutbox
+    Inherits System.ServiceProcess.ServiceBase
+
+    Private del As AddToDelegate
+
+    Private _listen As Boolean
+    Private _queue As MessageQueue
+
+    Private insert_queue As String = ConfigurationManager.AppSettings("insert_queue")
+    Private insert_queue2 As String = ConfigurationManager.AppSettings("insertdeath_queue")
+
+    Private resend_queue As String = ConfigurationManager.AppSettings("resend")
+
+    Private MT_URL As String = ConfigurationManager.AppSettings("MT_URL")
+
+    Private ReadOnly logger As log4net.ILog = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.ToString)
+
+    Protected Overrides Sub OnStart(ByVal args() As String)
+        log4net.Config.XmlConfigurator.Configure()
+
+        del = New AddToDelegate(AddressOf send2DB)
+
+        StartListen()
+    End Sub
+
+    Protected Overrides Sub OnStop()
+        StopListen()
+    End Sub
+
+    Private Sub StartListen()
+        Try
+            _queue = New MessageQueue(insert_queue)
+            MessageQueue.EnableConnectionCache = False
+
+            _listen = True
+            AddHandler _queue.PeekCompleted, AddressOf OnPeekCompleted
+            _queue.Formatter = New XmlMessageFormatter(New System.Type() {GetType(LibraryDAL.Tbl_Outbox)})
+
+            StartListening()
+        Catch ex As Exception
+            logger.Fatal("[FATAL]", ex)
+        End Try
+       
+
+
+    End Sub
+
+    Private Sub StopListen()
+        _listen = False
+        RemoveHandler _queue.PeekCompleted, AddressOf OnPeekCompleted
+    End Sub
+
+    Private Sub StartListening()
+        If Not _listen Then
+            Exit Sub
+        End If
+        _queue.BeginPeek()
+    End Sub
+
+    Private Sub OnPeekCompleted(ByVal sender As Object, ByVal e As PeekCompletedEventArgs)
+
+        Try
+            _queue.EndPeek(e.AsyncResult)
+            Dim trans As New MessageQueueTransaction()
+            Dim msg As Message = Nothing
+            trans.Begin()
+            msg = _queue.Receive(trans)
+            trans.Commit()
+            del.Invoke(CType(msg.Body, LibraryDAL.Tbl_Outbox))
+            StartListening()
+        Catch ex As Exception
+            logger.Fatal("[FATAL]", ex)
+        End Try
+      
+    End Sub
+
+    Private Sub send2DB(ByVal body As LibraryDAL.Tbl_Outbox)
+        Try
+            If body.MSISDN.Contains(",") Then
+                sendToResendQueue(body)
+            Else
+                If body.TelcoID = TelcoID._Smart Then
+                    insert2SmartOutbox(body)
+                ElseIf body.TelcoID = TelcoID._Globe Then
+                    insert2EggOutbox(body)
+                ElseIf body.TelcoID = TelcoID._Sun Then
+                    insert2SunOutbox(body)
+                Else
+                    Dim OutboxCRUD As New LibraryDAL.OutboxCRUD
+                    OutboxCRUD.OutboxInsert(body)
+                End If
+            End If
+           
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, body)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+    Private Sub file2SmartOutbox(ByVal objMessage As LibraryDAL.Tbl_Outbox)
+        Dim strWebSendRes As String = ""
+        Dim ServiceID As String = "6886"
+
+        Dim strSD As String = ""
+        Dim strTC As String = ""
+
+        Try
+            Dim time As DateTime = DateTime.Now
+            Dim format As String = "yyyyMM"
+            Dim tname As String = "mt_smart_" & time.ToString(format)
+
+            If objMessage.Charge = 0 Then
+                strSD = "00"
+            Else
+                Select Case objMessage.KeywordID
+                    Case 108, 109, 45
+                        strSD = "48"
+                    Case 46, 47
+                        strSD = "49"
+                    Case 3
+                        strSD = "48"
+                    Case Else
+                        strSD = "61"
+                End Select
+            End If
+
+            Select Case objMessage.Charge
+                Case 0
+                    strTC = "00"
+                Case Else
+                    strTC = "92"
+            End Select
+
+            Dim sQuery As String = "insert into " & tname & " values (0,'" & objMessage.TelcoID & "','" & _
+               objMessage.ShortCode & "','" & objMessage.CPID & "','" & objMessage.KeywordID & "','" & objMessage.MSISDN & "','" & objMessage.Charge & "','" & strTC & _
+               "','" & strSD & "','" & objMessage.Message.Replace("'", "") & "','1','" & objMessage.ContentURL & "','" & _
+                "0','" & objMessage.RetryCount & "','" & objMessage.TransactionID & "','" & objMessage.MTID & "','" & objMessage.Status & "','" & objMessage.StatusCode & "','" & objMessage.StatusCode & "',now(),'','','0000-00-00 00:00:00', '');"
+
+            Dim result As String = ""
+            strWebSendRes = MT_URL & "?telco=" & System.Web.HttpUtility.UrlEncode("SMART INSERT") & "&query=" & System.Web.HttpUtility.UrlEncode(sQuery)
+
+            'logger.Fatal("URL: " & strWebSendRes)
+            'Using web As New System.Net.WebClient
+            '    result = web.DownloadString(strWebSendRes)
+
+            '    Try
+            '        web.Dispose()
+
+            '    Catch ex As Exception
+            '    End Try
+            'End Using
+
+            logger.Fatal(sQuery)
+            'logger.Fatal(result & "|" & sQuery)
+            'logger.Fatal(result & "|" & strWebSendRes)
+
+            If result = "0" Or result = "" Then
+                'sendToQueue(insert_queue2, objMessage)
+            End If
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, objMessage)
+            logger.Fatal("[FATAL]" & strWebSendRes)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+    Private Sub file2SunOutbox(ByVal objMessage As LibraryDAL.Tbl_Outbox)
+        Dim strWebSendRes As String = ""
+
+        Try
+            Dim time As DateTime = DateTime.Now
+            Dim format As String = "yyyyMM"
+            Dim tname As String = "mt_sun_" & time.ToString(format)
+
+            Dim sQuery As String = "insert into " & tname & " values (0,'" & objMessage.TelcoID & "','" & _
+               objMessage.ShortCode & "','" & objMessage.CPID & "','" & objMessage.KeywordID & "','" & objMessage.MSISDN & "','" & objMessage.Charge & "','" & _
+               objMessage.Message.Replace("'", "") & "','1','" & objMessage.ContentURL & "','" & _
+                "0','" & objMessage.RetryCount & "','" & objMessage.TransactionID & "','" & objMessage.MTID & "','" & objMessage.Status & "','" & objMessage.StatusCode & "','" & objMessage.StatusCode & "',now(),'','','0000-00-00 00:00:00', '');"
+
+            Dim result As String = ""
+            strWebSendRes = MT_URL & "?telco=" & System.Web.HttpUtility.UrlEncode("SUN INSERT") & "&query=" & System.Web.HttpUtility.UrlEncode(sQuery)
+
+            'logger.Fatal("URL: " & strWebSendRes)
+            'Using web As New System.Net.WebClient
+            '    result = web.DownloadString(strWebSendRes)
+            '    Try
+            '        web.Dispose()
+
+            '    Catch ex As Exception
+            '    End Try
+            'End Using
+
+            logger.Fatal(sQuery)
+            'logger.Fatal(result & "|" & sQuery)
+            'logger.Fatal(result & "|" & strWebSendRes)
+
+            If result = "0" Or result = "" Then
+                'sendToQueue(insert_queue2, objMessage)
+            End If
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, objMessage)
+
+            logger.Fatal("[FATAL]" & strWebSendRes)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+    Private Sub file2EggOutbox(ByVal objMessage As LibraryDAL.Tbl_Outbox)
+        Dim strWebSendRes As String = ""
+
+        Try
+            Dim time As DateTime = DateTime.Now
+            Dim format As String = "yyyyMM"
+            Dim tname As String = "mt_egg_" & time.ToString(format)
+
+            Dim sQuery As String = "insert into " & tname & " values (0,'" & objMessage.TelcoID & "','" & _
+               objMessage.ShortCode & "','" & objMessage.CPID & "','" & objMessage.KeywordID & "','" & objMessage.MSISDN & "','" & objMessage.Charge & "','" & _
+               objMessage.Message.Replace("'", "") & "','1','" & objMessage.ContentURL & "','" & _
+                "0','" & objMessage.RetryCount & "','" & objMessage.TransactionID & "','" & objMessage.MTID & "','" & objMessage.Status & "','" & objMessage.StatusCode & "','" & objMessage.StatusCode & "',now(),'','','0000-00-00 00:00:00', '');"
+
+            Dim result As String = ""
+            strWebSendRes = MT_URL & "?telco=" & System.Web.HttpUtility.UrlEncode("EGG INSERT") & "&query=" & System.Web.HttpUtility.UrlEncode(sQuery)
+
+            'logger.Fatal("URL: " & strWebSendRes)
+            'Using web As New System.Net.WebClient
+            '    result = web.DownloadString(strWebSendRes)
+
+            '    Try
+            '        web.Dispose()
+            '    Catch ex As Exception
+            '    End Try
+            'End Using
+
+            logger.Fatal(sQuery)
+            'logger.Fatal(result & "|" & sQuery)
+            'logger.Fatal(result & "|" & strWebSendRes)
+
+            If result = "0" Or result = "" Then
+                'sendToQueue(insert_queue2, objMessage)
+            End If
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, objMessage)
+
+            logger.Fatal("[FATAL]" & strWebSendRes)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+
+
+
+    Private Sub insert2SmartOutbox(ByVal objMessage As LibraryDAL.Tbl_Outbox)
+        Dim strWebSendRes As String = ""
+        Dim ServiceID As String = "6886"
+        
+        Dim strSD As String = ""
+        Dim strTC As String = ""
+
+        Try
+            Dim time As DateTime = DateTime.Now
+            Dim format As String = "yyyyMM"
+            Dim tname As String = "mt_smart_" & time.ToString(format)
+
+            If objMessage.Charge = 0 Then
+                strSD = "00"
+            Else
+                Select Case objMessage.KeywordID
+                    Case 108, 109, 45
+                        strSD = "48"
+                    Case 46, 47
+                        strSD = "49"
+                    Case 3
+                        strSD = "48"
+                    Case Else
+                        strSD = "61"
+                End Select
+            End If
+
+            Select Case objMessage.Charge
+                Case 0
+                    strTC = "00"
+                Case Else
+                    strTC = "92"
+            End Select
+
+            Dim sQuery As String = "insert into " & tname & " values (0,'" & objMessage.TelcoID & "','" & _
+               objMessage.ShortCode & "','" & objMessage.CPID & "','" & objMessage.KeywordID & "','" & objMessage.MSISDN & "','" & objMessage.Charge & "','" & strTC & _
+               "','" & strSD & "','" & objMessage.Message.Replace("'", "") & "','1','" & objMessage.ContentURL & "','" & _
+                "0','" & objMessage.RetryCount & "','" & objMessage.TransactionID & "','" & objMessage.MTID & "','" & objMessage.Status & "','" & objMessage.StatusCode & "','" & objMessage.StatusCode & "',now(),'','','0000-00-00 00:00:00', '');"
+
+            Dim result As String = ""
+            strWebSendRes = MT_URL & "?telco=" & System.Web.HttpUtility.UrlEncode("SMART INSERT") & "&query=" & System.Web.HttpUtility.UrlEncode(sQuery)
+
+            logger.Fatal("URL: " & strWebSendRes)
+            Using web As New System.Net.WebClient
+                result = web.DownloadString(strWebSendRes)
+
+                Try
+                    web.Dispose()
+
+                Catch ex As Exception
+                End Try
+            End Using
+
+            logger.Fatal(result & "|" & sQuery)
+            logger.Fatal(result & "|" & strWebSendRes)
+
+            If result = "0" Or result = "" Then
+                sendToQueue(insert_queue2, objMessage)
+            End If
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, objMessage)
+            logger.Fatal("[FATAL]" & strWebSendRes)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+    Private Sub insert2SunOutbox(ByVal objMessage As LibraryDAL.Tbl_Outbox)
+        Dim strWebSendRes As String = ""
+
+        Try
+            Dim time As DateTime = DateTime.Now
+            Dim format As String = "yyyyMM"
+            Dim tname As String = "mt_sun_" & time.ToString(format)
+
+            Dim sQuery As String = "insert into " & tname & " values (0,'" & objMessage.TelcoID & "','" & _
+               objMessage.ShortCode & "','" & objMessage.CPID & "','" & objMessage.KeywordID & "','" & objMessage.MSISDN & "','" & objMessage.Charge & "','" & _
+               objMessage.Message.Replace("'", "") & "','1','" & objMessage.ContentURL & "','" & _
+                "0','" & objMessage.RetryCount & "','" & objMessage.TransactionID & "','" & objMessage.MTID & "','" & objMessage.Status & "','" & objMessage.StatusCode & "','" & objMessage.StatusCode & "',now(),'','','0000-00-00 00:00:00', '');"
+
+            Dim result As String = ""
+            strWebSendRes = MT_URL & "?telco=" & System.Web.HttpUtility.UrlEncode("SUN INSERT") & "&query=" & System.Web.HttpUtility.UrlEncode(sQuery)
+
+            logger.Fatal("URL: " & strWebSendRes)
+            Using web As New System.Net.WebClient
+                result = web.DownloadString(strWebSendRes)
+                Try
+                    web.Dispose()
+
+                Catch ex As Exception
+                End Try
+            End Using
+
+            logger.Fatal(result & "|" & sQuery)
+            logger.Fatal(result & "|" & strWebSendRes)
+
+            If result = "0" Or result = "" Then
+                sendToQueue(insert_queue2, objMessage)
+            End If
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, objMessage)
+
+            logger.Fatal("[FATAL]" & strWebSendRes)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+    Private Sub insert2EggOutbox(ByVal objMessage As LibraryDAL.Tbl_Outbox)
+        Dim strWebSendRes As String = ""
+
+        Try
+            Dim time As DateTime = DateTime.Now
+            Dim format As String = "yyyyMM"
+            Dim tname As String = "mt_egg_" & time.ToString(format)
+
+            Dim sQuery As String = "insert into " & tname & " values (0,'" & objMessage.TelcoID & "','" & _
+               objMessage.ShortCode & "','" & objMessage.CPID & "','" & objMessage.KeywordID & "','" & objMessage.MSISDN & "','" & objMessage.Charge & "','" & _
+               objMessage.Message.Replace("'", "") & "','1','" & objMessage.ContentURL & "','" & _
+                "0','" & objMessage.RetryCount & "','" & objMessage.TransactionID & "','" & objMessage.MTID & "','" & objMessage.Status & "','" & objMessage.StatusCode & "','" & objMessage.StatusCode & "',now(),'','','0000-00-00 00:00:00', '');"
+
+            Dim result As String = ""
+            strWebSendRes = MT_URL & "?telco=" & System.Web.HttpUtility.UrlEncode("EGG INSERT") & "&query=" & System.Web.HttpUtility.UrlEncode(sQuery)
+
+            logger.Fatal("URL: " & strWebSendRes)
+            Using web As New System.Net.WebClient
+                result = web.DownloadString(strWebSendRes)
+               
+                Try
+                    web.Dispose()
+                Catch ex As Exception
+                End Try
+            End Using
+
+            logger.Fatal(result & "|" & sQuery)
+            logger.Fatal(result & "|" & strWebSendRes)
+
+            If result = "0" Or result = "" Then
+                sendToQueue(insert_queue2, objMessage)
+            End If
+
+        Catch ex As Exception
+            sendToQueue(insert_queue2, objMessage)
+
+            logger.Fatal("[FATAL]" & strWebSendRes)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+    End Sub
+
+
+    Public Sub sendToResendQueue(ByVal body As LibraryDAL.Tbl_Outbox)
+        Dim resend As New SendSMSAPIStrc
+        With resend
+            .Charge = body.Charge
+            .CPID = body.CPID
+            .KeywordID = body.KeywordID
+            .Message = body.Message
+            .MsgCount = body.MsgCount
+            .MsgGUID = body.MsgGUID
+            .MSISDN = body.MSISDN
+            .ReceiveDate = body.ReceiveDate
+            .RetryCount = body.RetryCount
+            .ShortCode = body.ShortCode
+            .TransactionID = body.TransactionID
+            .SendDate = body.SendDate
+            .KeywordType = KeywordType._ContentBasedSubs
+        End With
+        sendToQueue(resend_queue, resend)
+    End Sub
+    Public Sub sendToQueue(ByVal destination As String, ByVal obj As Object)
+        Using q As New MessageQueue(destination, True)
+            MessageQueue.EnableConnectionCache = False
+            Using qtrans As New MessageQueueTransaction
+                qtrans.Begin()
+                q.Send(obj, qtrans)
+                qtrans.Commit()
+            End Using
+        End Using
+    End Sub
+
+
+End Class

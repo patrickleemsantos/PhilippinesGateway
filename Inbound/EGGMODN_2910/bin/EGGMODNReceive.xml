@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EGGMODNReceive
+</name>
+</assembly>
+<members>
+<member name="P:EGGMODNReceive.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EGGMODNReceive.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EGGMODNReceive.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:EGGMODNReceive.ConMO.ConMO.#ctor">
+	<remarks/>
+</member><member name="E:EGGMODNReceive.ConMO.ConMO.PostSmartMOCompleted">
+	<remarks/>
+</member><member name="M:EGGMODNReceive.ConMO.ConMO.PostSmartMO(EGGMODNReceive.ConMO.SmartMOStr)">
+	<remarks/>
+</member><member name="M:EGGMODNReceive.ConMO.ConMO.PostSmartMOAsync(EGGMODNReceive.ConMO.SmartMOStr)">
+	<remarks/>
+</member><member name="M:EGGMODNReceive.ConMO.ConMO.PostSmartMOAsync(EGGMODNReceive.ConMO.SmartMOStr,System.Object)">
+	<remarks/>
+</member><member name="M:EGGMODNReceive.ConMO.ConMO.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:EGGMODNReceive.ConMO.ConMO">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.MSISDN">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.ShortCode">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.Message">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.TransactionID">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.ServiceID">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.TelcoID">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.ReceiveDate">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.ConMO.SmartMOStr.RetryCount">
+	<remarks/>
+</member><member name="T:EGGMODNReceive.ConMO.SmartMOStr">
+	<remarks/>
+</member><member name="T:EGGMODNReceive.ConMO.PostSmartMOCompletedEventHandler">
+	<remarks/>
+</member><member name="P:EGGMODNReceive.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:EGGMODNReceive.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:EGGMODNReceive.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:EGGMODNReceive.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:EGGMODNReceive.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:EGGMODNReceive.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

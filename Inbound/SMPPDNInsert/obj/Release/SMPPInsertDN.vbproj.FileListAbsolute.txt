@@ -1,0 +1,23 @@
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\SMPPInsertDN.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\SMPPInsertDN.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\SMPPInsertDN.application
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\SMPPInsertDN.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\SMPPInsertDN.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.application
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.pdb
+D:\CDU\Source Code\PhilippinesGateway\Inbound\SMPPDNInsert\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.ProjectInstaller.resources
+D:\CDU\Source Code\PhilippinesGateway\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.exe
+D:\CDU\Source Code\PhilippinesGateway\Inbound\SMPPDNInsert\obj\Release\SMPPInsertDN.pdb

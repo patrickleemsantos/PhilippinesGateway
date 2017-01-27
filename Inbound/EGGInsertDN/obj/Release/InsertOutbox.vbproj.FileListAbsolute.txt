@@ -1,0 +1,34 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\InsertOutbox.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\InsertOutbox\obj\Release\InsertOutbox.pdb

@@ -1,0 +1,38 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\EggMOReplyTest_20111207\">
+    <file relUrl="TestSend.aspx" publishTime="12/06/2011 15:50:16" />
+    <file relUrl="bin/EGGMOReplyTest.pdb" publishTime="12/07/2011 16:42:28" />
+    <file relUrl="Web.config" publishTime="12/06/2011 16:12:56" />
+    <file relUrl="bin/EGGMOReplyTest.xml" publishTime="12/07/2011 16:42:28" />
+    <file relUrl="bin/EGGMOReplyTest.dll" publishTime="12/07/2011 16:42:28" />
+    <file relUrl="bin/log4net.dll" publishTime="11/24/2011 17:34:54" />
+    <file relUrl="Global.asax" publishTime="12/06/2011 16:19:29" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\EggMOReplyTest3\">
+    <file relUrl="TestSend.aspx" publishTime="12/06/2011 15:50:16" />
+    <file relUrl="bin/EGGMOReplyTest.pdb" publishTime="12/06/2011 16:31:25" />
+    <file relUrl="Web.config" publishTime="12/06/2011 16:12:56" />
+    <file relUrl="bin/EGGMOReplyTest.xml" publishTime="12/06/2011 16:31:25" />
+    <file relUrl="bin/EGGMOReplyTest.dll" publishTime="12/06/2011 16:31:25" />
+    <file relUrl="bin/log4net.dll" publishTime="11/24/2011 17:34:54" />
+    <file relUrl="Global.asax" publishTime="12/06/2011 16:19:29" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\EggMOReplyTest2\">
+    <file relUrl="TestSend.aspx" publishTime="12/06/2011 15:50:16" />
+    <file relUrl="bin/EGGMOReplyTest.pdb" publishTime="12/06/2011 16:26:40" />
+    <file relUrl="Web.config" publishTime="12/06/2011 16:12:56" />
+    <file relUrl="bin/EGGMOReplyTest.xml" publishTime="12/06/2011 16:26:40" />
+    <file relUrl="bin/EGGMOReplyTest.dll" publishTime="12/06/2011 16:26:40" />
+    <file relUrl="bin/log4net.dll" publishTime="11/24/2011 17:34:54" />
+    <file relUrl="Global.asax" publishTime="12/06/2011 16:19:29" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Ionnex\Desktop\EGGTestSend\">
+    <file relUrl="TestSend.aspx" publishTime="12/06/2011 15:50:16" />
+    <file relUrl="bin/EGGMOReplyTest.pdb" publishTime="12/06/2011 16:21:19" />
+    <file relUrl="Web.config" publishTime="12/06/2011 16:12:56" />
+    <file relUrl="bin/EGGMOReplyTest.xml" publishTime="12/06/2011 16:21:19" />
+    <file relUrl="bin/EGGMOReplyTest.dll" publishTime="12/06/2011 16:21:19" />
+    <file relUrl="bin/log4net.dll" publishTime="11/24/2011 17:34:54" />
+    <file relUrl="Global.asax" publishTime="12/06/2011 16:19:29" />
+  </publishTarget>
+</publishData>

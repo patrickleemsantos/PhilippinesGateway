@@ -1,0 +1,30 @@
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\bin\Debug\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\bin\Debug\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\bin\Debug\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\bin\Debug\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\obj\Debug\LibraryDAL.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\obj\Debug\LibraryDAL.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\obj\Debug\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\obj\Debug\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\LibraryDAL\obj\Debug\LibraryDAL.pdb
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\bin\Debug\LibraryDAL.dll
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\bin\Debug\LibraryDAL.pdb
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\bin\Debug\LibraryDAL.xml
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\bin\Debug\log4net.dll
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.Resources.resources
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.vbproj.GenerateResource.Cache
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.dll
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.xml
+C:\Users\Kevin11\Downloads\Desktop\9\New Folder\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\bin\Debug\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\bin\Debug\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\bin\Debug\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\bin\Debug\log4net.dll
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\LibraryDAL\obj\Debug\LibraryDAL.pdb

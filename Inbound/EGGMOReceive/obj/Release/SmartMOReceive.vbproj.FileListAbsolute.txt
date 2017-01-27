@@ -1,0 +1,42 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\SmartMOReceive.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\SmartMOReceive.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\SmartMOReceive.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\SmartMOReceive.XmlSerializers.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\SmartMOReceive.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\SmartMOReceive.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\bin\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\SmartMOReceive.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\SmartMOReceive.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\SmartMOReceive.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMOReceive\obj\Release\SmartMOReceive.XmlSerializers.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\SmartMOReceive.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\SmartMOReceive.XmlSerializers.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\SmartMOReceive.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\SmartMOReceive.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\bin\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.XmlSerializers.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\SmartMOReceive.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\SmartMOReceive.XmlSerializers.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\SmartMOReceive.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\SmartMOReceive.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\bin\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\SmartMOReceive\obj\Release\SmartMOReceive.XmlSerializers.dll

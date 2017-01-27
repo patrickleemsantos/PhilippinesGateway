@@ -1,0 +1,204 @@
+Imports System.Net.Sockets
+
+'''-----------------------------------------------------------------------------
+''' Project		: DOTUCPEMI
+''' Class		: UCPSocket
+'''
+'''-----------------------------------------------------------------------------
+''' <summary>Base socket for the SMS Client</summary>
+''' <remarks></remarks>
+''' <history>
+''' 	[bofh] 	06-02-2003	Created
+''' </history>
+'''-----------------------------------------------------------------------------
+Public Class UCPSocket
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Event that fires when the socket has debug information</summary>
+    ''' <param name="msg">debug messages</param>
+    ''' <remarks></remarks>
+    '''-----------------------------------------------------------------------------
+    Public Event onDebug(ByVal msg As String)
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Fires when we have recieved an packet from SMSC</summary>
+    ''' <param name="packet">An parsed packet</param>
+    ''' <remarks></remarks>
+    '''-----------------------------------------------------------------------------
+    Public Event Packet_recieved(ByVal packet As UCPPacket)
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Fires when socket has connected</summary>
+    ''' <remarks></remarks>
+    '''-----------------------------------------------------------------------------
+    Public Event onConnect()
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Fires when socket gets disconnected</summary>
+    ''' <remarks></remarks>
+    '''-----------------------------------------------------------------------------
+    Public Event onDisconnect()
+
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Is socket connected ?</summary>
+    ''' <value></value>
+    ''' <remarks></remarks>
+    ''' <history>
+    ''' 	[bofh] 	06-02-2003	Created
+    ''' </history>
+    '''-----------------------------------------------------------------------------
+    Public ReadOnly Property connected() As Boolean
+        Get
+            Return isConnected
+        End Get
+    End Property
+
+    Private sck As Socket
+    ' 
+    Private pfnCallBack As AsyncCallback
+    Private m_asynResult As IAsyncResult
+
+    Private m_DataBuffer(1024) As Byte
+    Private sckDataBuffer As String
+    Private isConnected As Boolean = False
+    Private EmptyStringCount As Integer = 0
+
+    Private Sub WaitForData()
+        Try
+            If pfnCallBack Is Nothing Then
+                pfnCallBack = New AsyncCallback(AddressOf OnDataReceived)
+            End If
+            m_asynResult = _
+                sck.BeginReceive(m_DataBuffer, 0, m_DataBuffer.Length - 1, SocketFlags.None, pfnCallBack, Nothing)
+        Catch ex As Exception
+            isConnected = False
+            RaiseEvent onDebug("WaitForData: " & ex.Message)
+            'RaiseEvent onDebug(debug_level.eError, "irc.net.client.WaitForData: " & ex.Message)
+            disconnect()
+        End Try
+    End Sub
+
+    '''-----------------------------------------------------------------------------
+    ''' <summary>
+    '''     Connects to SMS_C
+    ''' </summary>
+    ''' <param name="hostname">host or IP to SMSC</param>
+    ''' <param name="port">Port to communicatate with SMSC on</param>
+    ''' <remarks></remarks>
+    ''' <history>
+    ''' 	[bofh] 	06-02-2003	Created
+    ''' </history>
+    '''-----------------------------------------------------------------------------
+    Public Sub connect(ByVal hostname As String, ByVal port As Integer)
+        Try
+            If sck Is Nothing Then
+                sck = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
+            End If
+            Dim EP As System.Net.IPEndPoint = _
+                New System.NET.IPEndPoint(System.Net.Dns.Resolve(hostname).AddressList(0), port)
+            sck.Connect(EP)
+            isConnected = True
+            RaiseEvent onConnect()
+            WaitForData()
+        Catch ex As Exception
+            RaiseEvent onDebug("connect: " & ex.Message)
+            disconnect()
+            'RaiseEvent onDebug(debug_level.eError, "UCPSocket.connect: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub OnDataReceived(ByVal asyn As IAsyncResult)
+        Dim iRx As Integer
+        Dim chars As String
+        Try
+            isConnected = True
+            iRx = sck.EndReceive(asyn)
+            chars = ""
+        Catch ex As Exception
+            disconnect()
+        End Try
+
+        Try
+            chars = System.Text.Encoding.Default.GetString(m_DataBuffer, 0, iRx)
+            sckDataBuffer = sckDataBuffer & chars
+        Catch ex As Exception
+            RaiseEvent onDebug("OnDataReceived1: " & ex.Message)
+            disconnect()
+        End Try
+
+        WaitForData()
+
+        If sckDataBuffer = "" Then
+            EmptyStringCount += 1
+        Else : EmptyStringCount = 0 : End If
+        If EmptyStringCount > 10 Then
+            disconnect()
+            'RaiseEvent onDebug(debug_level.eError, "EmptyStringCount is above 10, so shuting down")
+        End If
+
+        Dim tmpData As String = ""
+        While InStr(sckDataBuffer, UCP_ETX) > 0 And InStr(sckDataBuffer, UCP_STX) > 0
+
+            tmpData = Mid(sckDataBuffer, InStr(sckDataBuffer, UCP_STX), InStr(sckDataBuffer, UCP_ETX))
+            sckDataBuffer = Mid(sckDataBuffer, InStr(sckDataBuffer, UCP_ETX) + 1)
+            RaiseEvent onDebug("OnDataReceived2: " & tmpData)
+            Try
+                Dim tmp_p As New UCPPacket(tmpData)
+                RaiseEvent Packet_recieved(tmp_p)
+            Catch ex As Exception
+                Dim current As Exception, errMsg As String
+                current = ex
+                While Not (current Is Nothing)
+                    errMsg = current.Message
+                    current = current.InnerException
+                End While
+                RaiseEvent onDebug("OnDataReceived3: " & errMsg)
+            End Try
+        End While
+    End Sub
+
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Send data RAW to SMSC</summary>
+    ''' <param name="Msg">messages to send</param>
+    ''' <returns>boolean indicating if submition completed successfully</returns>
+    ''' <remarks></remarks>
+    ''' <history>
+    ''' 	[bofh] 	06-02-2003	Created
+    ''' </history>
+    '''-----------------------------------------------------------------------------
+    Public Function SendData(ByVal Msg As String) As Boolean
+        Dim result As Boolean = True
+        Try
+            Dim Buffer() As Byte = System.Text.Encoding.Default.GetBytes(Msg.ToCharArray)
+            Dim respond As Integer = 0
+            If sck.Connected Then
+                respond = sck.Send(Buffer, Buffer.Length, 0)
+            End If
+
+            'SendBytes = SendBytes + Buffer.Length
+            If respond > 0 Then
+                RaiseEvent onDebug("Respond: " & respond & "; SendData: " & Msg)
+            Else
+                result = False
+            End If
+
+        Catch ex As Exception
+            RaiseEvent onDebug("irc.net.client.SendDataRAW: " & ex.Message)
+            result = False
+        End Try
+        Return result
+    End Function
+
+    '''-----------------------------------------------------------------------------
+    ''' <summary>Disconnect from SMSC and fire OnDisconnect</summary>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    ''' <history>
+    ''' 	[bofh] 	06-02-2003	Created
+    ''' </history>
+    '''-----------------------------------------------------------------------------
+    Public Sub disconnect()
+        isConnected = False
+        If Not sck Is Nothing Then
+            sck.Close()
+            sck = Nothing
+            RaiseEvent onDisconnect()
+        End If
+    End Sub
+End Class

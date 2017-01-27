@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://webservice.vae.ngin/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="VaeWebService" targetNamespace="http://webservice.vae.ngin/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://203.172.31.230:8080/aws/VaeWebService?xsd=1" namespace="http://webservice.vae.ngin/" />
+    </xsd:schema>
+  </types>
+  <message name="ticket">
+    <part name="parameters" element="tns:ticket" />
+  </message>
+  <message name="ticketResponse">
+    <part name="parameters" element="tns:ticketResponse" />
+  </message>
+  <portType name="VaeWebService">
+    <operation name="ticket">
+      <input message="tns:ticket" />
+      <output message="tns:ticketResponse" />
+    </operation>
+  </portType>
+  <binding name="VaeWebServicePortBinding" type="tns:VaeWebService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ticket">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="VaeWebService">
+    <port name="VaeWebServicePort" binding="tns:VaeWebServicePortBinding">
+      <soap:address location="http://203.172.31.230:8080/aws/VaeWebService" />
+    </port>
+  </service>
+</definitions>

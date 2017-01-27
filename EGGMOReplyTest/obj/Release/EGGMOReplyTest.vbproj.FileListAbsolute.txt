@@ -1,0 +1,18 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\bin\EGGMOReplyTest.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\bin\EGGMOReplyTest.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\bin\EGGMOReplyTest.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.pdb
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\bin\EGGMOReplyTest.dll
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\bin\EGGMOReplyTest.pdb
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\bin\EGGMOReplyTest.xml
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.dll
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.xml
+D:\CDU\Source Code\PhilippinesGateway\EGGMOReplyTest\obj\Release\EGGMOReplyTest.pdb

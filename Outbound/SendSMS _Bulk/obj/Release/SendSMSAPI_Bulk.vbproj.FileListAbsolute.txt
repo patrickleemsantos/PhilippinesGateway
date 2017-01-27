@@ -1,0 +1,12 @@
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\bin\SendSMS_Bulk.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\bin\SendSMS_Bulk.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\bin\SendSMS_Bulk.xml
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\bin\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\bin\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\bin\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\obj\Release\SendSMS_Bulk.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\obj\Release\SendSMSAPI_Bulk.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\obj\Release\SendSMS_Bulk.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\obj\Release\SendSMS_Bulk.xml
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SendSMS _Bulk\obj\Release\SendSMS_Bulk.pdb

@@ -1,0 +1,17 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Alex\Desktop\Desktop\Alex\Project\Gateway_new\Philippines\precompiled\Gateway\CopyRecord\">
+    <file relUrl="bin/LibraryDAL.pdb" publishTime="07/30/2013 13:53:35" />
+    <file relUrl="bin/ResendMT.dll" publishTime="07/31/2013 10:02:21" />
+    <file relUrl="bin/ResendMT.pdb" publishTime="07/31/2013 10:02:21" />
+    <file relUrl="bin/LibraryDAL.dll" publishTime="07/30/2013 13:53:35" />
+    <file relUrl="Web.config" publishTime="03/20/2013 12:29:16" />
+    <file relUrl="bin/MySql.Data.dll" publishTime="08/06/2012 10:43:42" />
+    <file relUrl="bin/ResendMT.xml" publishTime="07/31/2013 10:02:21" />
+    <file relUrl="bin/SendSMS.xml" publishTime="07/24/2013 11:11:45" />
+    <file relUrl="bin/SendSMS.pdb" publishTime="07/24/2013 11:11:45" />
+    <file relUrl="bin/SendSMS.dll" publishTime="07/24/2013 11:11:45" />
+    <file relUrl="bin/LibraryDAL.xml" publishTime="07/30/2013 13:53:35" />
+    <file relUrl="bin/log4net.dll" publishTime="08/06/2012 11:09:45" />
+    <file relUrl="Service1.asmx" publishTime="03/20/2013 11:25:17" />
+  </publishTarget>
+</publishData>

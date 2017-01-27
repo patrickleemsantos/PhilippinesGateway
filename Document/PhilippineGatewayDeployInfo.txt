@@ -1,0 +1,22 @@
+PremiumSMSAPISvc
+smsapi@0011
+
+PremiumSMSMOSvc
+smsmo@0011
+
+PremiumSMSUpdateSvc
+smsupdate@0011
+
+PremiumSMSMTSvc
+smsmt@0011
+
+
+192.168.63.9
+Port >8100  Telco MODN IN
+8101 -SmartMOReceive
+
+Port >8000  Internal Apps Service
+8001 -SMSAPI
+8010 -MOWCF
+8011 -ReserveKeyword
+

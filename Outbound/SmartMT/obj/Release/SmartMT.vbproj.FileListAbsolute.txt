@@ -1,0 +1,153 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\SmartMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\obj\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\InboundGateway\SmartMT\obj\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines Gateway\Outbound\SmartMT\obj\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\SmartMT.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\SmartMT.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\log4net.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCodeKLOffice\PhilippineGateway\Outbound\SmartMT\obj\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\SmartMT\obj\Release\SmartMT.pdb
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\log4net.dll
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\project\Philipine\Updated\backend\Outbound\SmartMT\obj\Release\SmartMT.pdb
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\log4net.dll
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\MySql.Data.dll
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\gateway\coding\Ph_v2\backend\Outbound\SmartMT\obj\Release\SmartMT.pdb
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\SmartMT.exe
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\SmartMT.pdb
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\log4net.dll
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\MySql.Data.dll
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+C:\gateway\coding\ph_v3\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+C:\gateway\coding\ph_v3\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+C:\gateway\coding\ph_v3\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+C:\gateway\coding\ph_v3\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+C:\gateway\coding\ph_v3\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+C:\gateway\coding\ph_v3\Outbound\SmartMT\obj\Release\SmartMT.exe
+C:\gateway\coding\ph_v3\Outbound\SmartMT\obj\Release\SmartMT.pdb
+D:\CDU\Source Code\Smart\SmartMT\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\Smart\SmartMT\obj\Release\SmartMT.Resources.resources
+D:\CDU\Source Code\Smart\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+D:\CDU\Source Code\Smart\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\Smart\SmartMT\obj\Release\SmartMT.exe
+D:\CDU\Source Code\Smart\SmartMT\obj\Release\SmartMT.pdb
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.exe
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.pdb
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\log4net.dll
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\MySql.Data.dll
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.exe
+D:\CDU\Source Code\Philippines\Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.exe.config
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.exe
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\SmartMT.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\log4net.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\MySql.Data.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\bin\Release\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.ProjectInstaller.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.exe
+D:\CDU\Source Code\PhilippinesGateway\Outbound\SmartMT\obj\Release\SmartMT.pdb

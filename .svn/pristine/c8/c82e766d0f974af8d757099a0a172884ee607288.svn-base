@@ -1,0 +1,260 @@
+﻿Imports LibraryDAL
+Imports System.Security.Cryptography.X509Certificates
+Imports System.Net.Security
+Imports System.Net
+
+Partial Public Class smsin_reg
+    Inherits System.Web.UI.Page
+
+    Private Shared ReadOnly logger As log4net.ILog = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.ToString)
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim message As String = RequestData("message")
+        Dim MSISDN As String = RequestData("from")
+        Dim TransactionID As String = RequestData("msgid")
+        Dim shortcode As String = RequestData("sc")
+        Dim serviceID As String = RequestData("serviceid")
+        Dim telcoID As String = RequestData("telcoid")
+
+        Dim UserCRUD As New UserCRUD
+        Dim KeywordCRUD As New KeywordCRUD
+        Dim KeywordInfo As Tbl_Keyword
+        Dim UserStatus As Integer = 0
+        Dim Result As Integer = 0
+        Dim PostResponse As String = ""
+        Dim msgData As String = ""
+        Dim URLData As String = ""
+        Dim PostResult As String = ""
+        Dim SendMOToCPFlag As Boolean = True ' use to determine send mo to cp
+        Dim DTOCP As New Tbl_CP
+        Dim CPCRUD As New CPCRUD
+        Dim DTOKeywordMsgSetting As New Tbl_KeywordMsgSetting
+
+        Dim objInfo As String = "Message=" & message & ";" & _
+                                          "From=" & MSISDN & ";" & _
+                                          "MsgID=" & TransactionID & ";" & _
+                                          "ShortCode=" & shortcode & ";" & _
+                                          "ServiceID=" & serviceID & ";" & _
+                                          "TelcoID=" & telcoID & ";"
+
+        Try
+
+            If serviceID = "" Or shortcode = "" Or telcoID = "" Or MSISDN = "" Or message = "" Then
+                Throw New Exception("Info not found")
+            End If
+
+            KeywordInfo = KeywordCRUD.GetKeywordInfo_byKeywordID(serviceID) ' check keyword to get Keyword Type
+
+            If KeywordInfo.TypeID = General.KeywordType._ContentBasedSubs Or KeywordInfo.TypeID = General.KeywordType._TimeBasedSubs Then ' content based subs
+                UserStatus = UserCRUD.CheckUserSubs(MSISDN, serviceID) ' check user status 
+
+                If UserStatus > 0 Then ' check for user exist
+                    If UserStatus = General.UserStatus._Active Then ' if user is active
+                        If telcoID = General.TelcoID._Smart Then ' reply already subs message for smart telco only
+                            DTOCP = CPCRUD.GetCPInfoByKeywordID(KeywordInfo.KeywordID)
+
+                            'Added by Patrick 09/17/2013
+                            'Description: To get keyword correct tariff for double opt-in
+                            Dim tariff As String = ""
+                            If KeywordInfo.Charge = "500" Then
+                                tariff = "P5.00/SMS"
+                            Else
+                                tariff = "P2.50/txt"
+                            End If
+
+                            'Post to API
+                            'Dim RegAlreadyMsg As String = RegAlreadySubsService.Replace("#Keyword", KeywordInfo.Keyword)
+
+                            'Commented by Patrick 10/28/2013
+                            'Description: Double opt-in message will be process by CP
+                            'Dim RegAlreadyMsg As String = RegAlreadySubsService.Replace("#Tariff", tariff)
+
+                            'PostResult = SendToAPI(APIUrl, TimeOutPostToAPI, DTOCP.UserName, DTOCP.Password, MSISDN, shortcode, CStr(MsgType.TextSMS), _
+                            '                      RegAlreadyMsg, "0", telcoID, KeywordInfo.KeywordID.ToString, "DOUBLE", TransactionID)
+
+                            'logger.Info("[REG]DoubleOptInMsg;" & objInfo & ";" & PostResult)
+                            logger.Info("[REG]DoubleOptInMsg;" & objInfo)
+                        End If
+
+                        If telcoID = General.TelcoID._Sun Then ' reply already subs message for Sun telco only
+                            'Commented by Patrick 10/28/2013
+                            'Description: Double opt-in message will be process by CP
+                            'DTOCP = CPCRUD.GetCPInfoByKeywordID(KeywordInfo.KeywordID)
+                            ''Post to API
+                            'Dim RegAlreadyMsg As String = SunRegAlreadySubsService '.Replace("#Keyword", KeywordInfo.Keyword)
+                            '' RegAlreadyMsg = KeywordInfo.Keyword.ToUpper & ": " & RegAlreadyMsg
+                            'PostResult = SendToAPI(APIUrl, TimeOutPostToAPI, DTOCP.UserName, DTOCP.Password, MSISDN, shortcode, CStr(MsgType.TextSMS), _
+                            '                      RegAlreadyMsg, "200", telcoID, KeywordInfo.KeywordID.ToString, "DOUBLE", TransactionID)
+
+                            'logger.Info("[REG]DoubleOptInMsg;" & objInfo & ";" & PostResult)
+                            logger.Info("[REG]DoubleOptInMsg;" & objInfo)
+                        End If
+
+                    Else
+
+                        If KeywordInfo.TypeID = General.KeywordType._ContentBasedSubs Then
+                            Result = UserCRUD.UpdateUserSubs(MSISDN, serviceID, TransactionID, General.UserStatus._Active) ' normal active user
+                        ElseIf KeywordInfo.TypeID = General.KeywordType._TimeBasedSubs Then
+                            Result = UserCRUD.UpdateUserSubsTimeBased(MSISDN, serviceID, TransactionID, KeywordInfo.TimeFrame) ' active user with keyword time frame
+                        End If
+
+                        If telcoID = General.TelcoID._Smart Then  'Set Send MO for smart to false
+                            SendMOToCPFlag = False
+                        End If
+
+                        'Send Welcome Message
+                        Dim KeywordMsgSettingCURD As New KeywordMsgSettingCRUD
+                        DTOCP = CPCRUD.GetCPInfoByKeywordID(KeywordInfo.KeywordID)
+
+                        If DTOCP.CPID <> 0 Then ' Check For CP Exist
+                            DTOKeywordMsgSetting = KeywordMsgSettingCURD.GetWelcomeMessage(KeywordInfo.KeywordID)
+
+                            If Not String.IsNullOrEmpty(DTOKeywordMsgSetting.WelcomeMsg) Then
+                                If telcoID = General.TelcoID._Sun Then
+                                    'send welcome message
+                                    PostResult = SendToAPI(APIUrl, TimeOutPostToAPI, DTOCP.UserName, DTOCP.Password, MSISDN, shortcode, CStr(DTOKeywordMsgSetting.MsgType), _
+                                                DTOKeywordMsgSetting.WelcomeMsg, "0", telcoID, KeywordInfo.KeywordID.ToString, "Welcome", TransactionID)
+                                    logger.Info("[REG]WelcomeMsg;" & objInfo & ";" & PostResult)
+                                Else
+                                    'send welcome message
+                                    'No need to send welcome message for Smart Feng Shui (it will be handled by CMS)-Patrick 09/27/2013                               
+                                    'Added PLQ & Lotto for not sending welcome message-Patrick 11/16/2013
+                                    'Added GMOBI for not sending welcome message-Patrick 01/21/2014
+                                    If (KeywordInfo.KeywordID <> 68) And (KeywordInfo.KeywordID <> 69) And (KeywordInfo.KeywordID <> 73) And (KeywordInfo.KeywordID <> 76) And (KeywordInfo.KeywordID <> 80) _
+                                        And (KeywordInfo.KeywordID <> 81) And (KeywordInfo.KeywordID <> 86) And (KeywordInfo.KeywordID <> 87) And (KeywordInfo.KeywordID <> 92) And (KeywordInfo.KeywordID <> 93) _
+                                        And (KeywordInfo.KeywordID <> 98) And (KeywordInfo.KeywordID <> 99) And (KeywordInfo.KeywordID <> 104) And (KeywordInfo.KeywordID <> 117) And (KeywordInfo.KeywordID <> 120) _
+                                        And (KeywordInfo.KeywordID <> 123) And (KeywordInfo.KeywordID <> 111) And (KeywordInfo.KeywordID <> 112) And (KeywordInfo.KeywordID <> 126) Then
+
+                                        PostResult = SendToAPI(APIUrl, TimeOutPostToAPI, DTOCP.UserName, DTOCP.Password, MSISDN, shortcode, CStr(DTOKeywordMsgSetting.MsgType), _
+                                               DTOKeywordMsgSetting.WelcomeMsg, DTOKeywordMsgSetting.Charge.ToString, telcoID, KeywordInfo.KeywordID.ToString, "Welcome", TransactionID)
+                                        logger.Info("[REG]WelcomeMsg;" & objInfo & ";" & PostResult)
+
+                                    End If
+                                End If
+
+                            End If
+                        End If
+
+                    End If
+                Else
+
+                    If KeywordInfo.TypeID = General.KeywordType._ContentBasedSubs Then
+
+                        Dim UserInfo As New Tbl_User
+                        With UserInfo
+                            .KeywordID = serviceID
+                            .MSISDN = MSISDN
+                            .Name = ""
+                            .StatusID = General.UserStatus._Active
+                            .TelcoID = telcoID
+                            .TransactionID = TransactionID
+                            .DateJoined = Date.Now
+                            .DateExpire = _defaultDateTime
+                            .DateTerminate = _defaultDateTime
+                        End With
+                        Result = UserCRUD.UserInsert(UserInfo)
+
+                    ElseIf KeywordInfo.TypeID = General.KeywordType._TimeBasedSubs Then
+                        Dim UserInfo As New Tbl_User
+                        With UserInfo
+                            .KeywordID = serviceID
+                            .MSISDN = MSISDN
+                            .Name = ""
+                            .StatusID = General.UserStatus._Active
+                            .TelcoID = telcoID
+                            .TransactionID = TransactionID
+                            .DateJoined = Date.Now
+                            .DateExpire = Date.Now.AddDays(KeywordInfo.TimeFrame)
+                            .DateTerminate = _defaultDateTime
+                        End With
+                        Result = UserCRUD.UserInsert(UserInfo)
+
+                    End If
+
+                    If telcoID = General.TelcoID._Smart Then 'Set Send MO for smart to false
+                        SendMOToCPFlag = False
+                    End If
+
+                    'Send Welcome Message
+                    Dim KeywordMsgSettingCURD As New KeywordMsgSettingCRUD
+                    DTOCP = CPCRUD.GetCPInfoByKeywordID(KeywordInfo.KeywordID)
+
+                    If DTOCP.CPID <> 0 Then ' Check For CP Exist
+                        DTOKeywordMsgSetting = KeywordMsgSettingCURD.GetWelcomeMessage(KeywordInfo.KeywordID)
+
+                        If Not String.IsNullOrEmpty(DTOKeywordMsgSetting.WelcomeMsg) Then
+                            If telcoID = General.TelcoID._Sun Then
+                                'send welcom message
+                                PostResult = SendToAPI(APIUrl, TimeOutPostToAPI, DTOCP.UserName, DTOCP.Password, MSISDN, shortcode, CStr(MsgType.TextSMS), _
+                                          DTOKeywordMsgSetting.WelcomeMsg, "0", telcoID, KeywordInfo.KeywordID.ToString, "Welcome", TransactionID)
+                                logger.Info("[REG]WelcomeMsg;" & objInfo & ";" & PostResult)
+                            Else
+                                'send welcom message
+                                'No need to send welcome message for Smart Feng Shui (it will be handled by CMS)-Patrick 09/27/2013                               
+                                'Added PLQ & Lotto for not sending welcome message-Patrick 11/16/2013
+                                'Added GMOBI for not sending welcome message-Patrick 01/21/2014
+                                If (KeywordInfo.KeywordID <> 68) And (KeywordInfo.KeywordID <> 69) And (KeywordInfo.KeywordID <> 73) And (KeywordInfo.KeywordID <> 76) And (KeywordInfo.KeywordID <> 80) _
+                                        And (KeywordInfo.KeywordID <> 81) And (KeywordInfo.KeywordID <> 86) And (KeywordInfo.KeywordID <> 87) And (KeywordInfo.KeywordID <> 92) And (KeywordInfo.KeywordID <> 93) _
+                                        And (KeywordInfo.KeywordID <> 98) And (KeywordInfo.KeywordID <> 99) And (KeywordInfo.KeywordID <> 104) And (KeywordInfo.KeywordID <> 117) And (KeywordInfo.KeywordID <> 120) _
+                                        And (KeywordInfo.KeywordID <> 123) And (KeywordInfo.KeywordID <> 111) And (KeywordInfo.KeywordID <> 112) And (KeywordInfo.KeywordID <> 126) Then
+
+                                    PostResult = SendToAPI(APIUrl, TimeOutPostToAPI, DTOCP.UserName, DTOCP.Password, MSISDN, shortcode, CStr(MsgType.TextSMS), _
+                                           DTOKeywordMsgSetting.WelcomeMsg, DTOKeywordMsgSetting.Charge.ToString, telcoID, KeywordInfo.KeywordID.ToString, "Welcome", TransactionID)
+                                    logger.Info("[REG]WelcomeMsg;" & objInfo & ";" & PostResult)
+
+                                End If
+                            End If
+
+                        End If
+                    End If
+                End If
+            End If
+
+            'If KeywordInfo.MOUrl <> "" And SendMOToCPFlag = True Then
+            If KeywordInfo.MOUrl <> "" Then
+                msgData = "msgid=" & System.Web.HttpUtility.UrlDecode(TransactionID) & _
+                                  "&from=" & MSISDN & _
+                                  "&message=" & System.Web.HttpUtility.UrlDecode(message) & _
+                                  "&sc=" & shortcode & _
+                                   "&telcoid=" & telcoID & _
+                                   "&serviceid=" & serviceID
+
+                'forward to MO Forward Queue
+                Dim MOForwardStrc As New LibraryDAL.MOForwardStrc
+                With MOForwardStrc
+                    .URL = KeywordInfo.MOUrl
+                    .URLData = msgData
+                End With
+                logger.Info("[Forward MO]ForwardMO;" & KeywordInfo.MOUrl & "?" & msgData)
+                dumpToQueue(MOForwardQueue, MOForwardStrc)
+            End If
+
+            logger.Info("[REG]" & objInfo & "; " & PostResponse.Trim)
+
+        Catch ex As Exception
+            logger.Fatal("[FATAL]" & objInfo)
+            logger.Fatal("[FATAL]", ex)
+        End Try
+
+    End Sub
+
+    Public Function RequestData(ByVal strName As String) As String
+        Dim strReturn As String = ""
+        Try
+
+            strReturn = Request.QueryString(strName)
+            If strReturn = "" Then
+                strReturn = System.Web.HttpUtility.UrlDecode(Request.Form(strName))
+            End If
+            If strReturn <> "" Then
+                strReturn = strReturn.Trim
+                Return strReturn
+            Else
+                Return ""
+            End If
+        Catch ex As Exception
+            Return ""
+        End Try
+    End Function
+
+End Class

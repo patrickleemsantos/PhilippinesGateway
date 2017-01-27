@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MO_WCF
+</name>
+</assembly>
+<members>
+<member name="M:MO_WCF.SmartAWS.VaeWebService.#ctor">
+	<remarks/>
+</member><member name="E:MO_WCF.SmartAWS.VaeWebService.ticketCompleted">
+	<remarks/>
+</member><member name="M:MO_WCF.SmartAWS.VaeWebService.ticket(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:MO_WCF.SmartAWS.VaeWebService.ticketAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:MO_WCF.SmartAWS.VaeWebService.ticketAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:MO_WCF.SmartAWS.VaeWebService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:MO_WCF.SmartAWS.VaeWebService">
+	<remarks/>
+</member><member name="P:MO_WCF.SmartAWS.vaeWSResponseData.error">
+	<remarks/>
+</member><member name="P:MO_WCF.SmartAWS.vaeWSResponseData.responseCode">
+	<remarks/>
+</member><member name="P:MO_WCF.SmartAWS.vaeWSResponseData.svcID">
+	<remarks/>
+</member><member name="P:MO_WCF.SmartAWS.vaeWSResponseData.txnCode">
+	<remarks/>
+</member><member name="P:MO_WCF.SmartAWS.vaeWSResponseData.vaeRRN">
+	<remarks/>
+</member><member name="T:MO_WCF.SmartAWS.vaeWSResponseData">
+	<remarks/>
+</member><member name="T:MO_WCF.SmartAWS.ticketCompletedEventHandler">
+	<remarks/>
+</member><member name="P:MO_WCF.SmartAWS.ticketCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:MO_WCF.SmartAWS.ticketCompletedEventArgs">
+	<remarks/>
+</member><member name="P:MO_WCF.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:MO_WCF.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:MO_WCF.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:MO_WCF.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:MO_WCF.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:MO_WCF.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

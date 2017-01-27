@@ -1,0 +1,25 @@
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\bin\Debug\Gateway_Maxis_MPG.exe.config
+C:\release\Gateway_Maxis_MPG\Gateway_Maxis_MPG.exe.config
+C:\release\Gateway_Maxis_MPG\Gateway_Maxis_MPG.exe
+C:\release\Gateway_Maxis_MPG\Gateway_Maxis_MPG.pdb
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\ResolveAssemblyReference.cache
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.Resources.resources
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.ProjectInstaller.resources
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.vbproj.GenerateResource.Cache
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.exe
+C:\Ionnex\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.pdb
+C:\Documents and Settings\Administrator\Desktop\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.ProjectInstaller.resources
+C:\Documents and Settings\Administrator\Desktop\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.exe
+C:\Documents and Settings\Administrator\Desktop\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.pdb
+C:\Documents and Settings\Administrator\release\Gateway_Maxis_MPG\Gateway_Maxis_MPG.exe.config
+C:\Documents and Settings\Administrator\release\Gateway_Maxis_MPG\Gateway_Maxis_MPG.exe
+C:\Documents and Settings\Administrator\release\Gateway_Maxis_MPG\Gateway_Maxis_MPG.pdb
+C:\Projects\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.Resources.resources
+C:\Projects\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.ProjectInstaller.resources
+C:\Projects\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.vbproj.GenerateResource.Cache
+C:\Projects\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.exe
+C:\Projects\MM7\MM7_Maxis\Gateway_Maxis_MPG\obj\Debug\Gateway_Maxis_MPG.pdb

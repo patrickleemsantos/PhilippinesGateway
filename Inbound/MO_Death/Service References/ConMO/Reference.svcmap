@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="808a0a92-9005-46f4-bfbd-d2506ed18dac" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52179/contract/ConMO.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConMO.wsdl" MetadataType="Wsdl" ID="61fd7f7e-8e78-4cba-ae78-ab0988639ffd" SourceId="1" SourceUrl="http://localhost:52179/contract/ConMO.svc?wsdl" />
+    <MetadataFile FileName="ConMO.xsd" MetadataType="Schema" ID="604ab6bf-e13a-4b2f-8809-ec029ad27195" SourceId="1" SourceUrl="http://localhost:52179/contract/ConMO.svc?xsd=xsd0" />
+    <MetadataFile FileName="ConMO.disco" MetadataType="Disco" ID="e2c21030-c026-4307-9101-b8bda609cd55" SourceId="1" SourceUrl="http://localhost:52179/contract/ConMO.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

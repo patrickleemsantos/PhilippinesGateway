@@ -1,0 +1,14 @@
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\EGGMODN_2910.dll
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\EGGMODN_2910.XmlSerializers.dll
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\EGGMODN_2910.pdb
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\EGGMODN_2910.xml
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\bin\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\EGGMODN_2910.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\EGGMODN_2910.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\EGGMODN_2910.dll
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\EGGMODN_2910.xml
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\EGGMODN_2910.pdb
+D:\CDU\Source Code\PhilippinesGateway\Inbound\EGGMODN_2910\obj\Release\EGGMODN_2910.XmlSerializers.dll

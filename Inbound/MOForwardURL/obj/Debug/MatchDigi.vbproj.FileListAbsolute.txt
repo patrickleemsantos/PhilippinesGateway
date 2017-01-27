@@ -1,0 +1,10 @@
+C:\Projects\PremiumMagent_Web\MatchDigi\bin\Debug\MatchDigi.exe.config
+C:\release\DNMatch\MatchDigi\MatchDigi.exe.config
+C:\release\DNMatch\MatchDigi\MatchDigi.exe
+C:\release\DNMatch\MatchDigi\MatchDigi.pdb
+C:\Projects\PremiumMagent_Web\MatchDigi\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\PremiumMagent_Web\MatchDigi\obj\Debug\MatchDigi.Resources.resources
+C:\Projects\PremiumMagent_Web\MatchDigi\obj\Debug\MatchDigi.ProjectInstaller.resources
+C:\Projects\PremiumMagent_Web\MatchDigi\obj\Debug\MatchDigi.vbproj.GenerateResource.Cache
+C:\Projects\PremiumMagent_Web\MatchDigi\obj\Debug\MatchDigi.exe
+C:\Projects\PremiumMagent_Web\MatchDigi\obj\Debug\MatchDigi.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="SmartMOReceive_ConMO_ConMO" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:52179/contract/ConMO.svc</Value>
+    </Setting>
+    <Setting Name="SmartMOReceive_SmartAWS_VaeWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://203.172.31.230:8080/aws/VaeWebService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

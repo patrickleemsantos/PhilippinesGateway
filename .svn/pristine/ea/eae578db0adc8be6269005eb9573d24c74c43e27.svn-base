@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartMOReceive
+</name>
+</assembly>
+<members>
+<member name="M:SmartMOReceive.ConMO.ConMO.#ctor">
+	<remarks/>
+</member><member name="E:SmartMOReceive.ConMO.ConMO.PostSmartMOCompleted">
+	<remarks/>
+</member><member name="M:SmartMOReceive.ConMO.ConMO.PostSmartMO(SmartMOReceive.ConMO.SmartMOStr)">
+	<remarks/>
+</member><member name="M:SmartMOReceive.ConMO.ConMO.PostSmartMOAsync(SmartMOReceive.ConMO.SmartMOStr)">
+	<remarks/>
+</member><member name="M:SmartMOReceive.ConMO.ConMO.PostSmartMOAsync(SmartMOReceive.ConMO.SmartMOStr,System.Object)">
+	<remarks/>
+</member><member name="M:SmartMOReceive.ConMO.ConMO.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:SmartMOReceive.ConMO.ConMO">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.MSISDN">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.ShortCode">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.Message">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.TransactionID">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.ServiceID">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.TelcoID">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.ReceiveDate">
+	<remarks/>
+</member><member name="P:SmartMOReceive.ConMO.SmartMOStr.RetryCount">
+	<remarks/>
+</member><member name="T:SmartMOReceive.ConMO.SmartMOStr">
+	<remarks/>
+</member><member name="T:SmartMOReceive.ConMO.PostSmartMOCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SmartMOReceive.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:SmartMOReceive.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:SmartMOReceive.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:SmartMOReceive.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:SmartMOReceive.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:SmartMOReceive.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

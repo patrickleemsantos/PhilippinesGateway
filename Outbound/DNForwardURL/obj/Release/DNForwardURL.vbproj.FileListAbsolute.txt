@@ -1,0 +1,65 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\Library.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\Library.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\obj\Release\DNForwardURL.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\DnForwardURL.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\DnForwardURL.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\DnForwardURL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\obj\Release\DnForwardURL.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\obj\Release\DnForwardURL.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\obj\Release\DnForwardURL.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\obj\Release\DnForwardURL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\PremiumMagent_Web\DNForwardApps\DNForwardURL\bin\Release\MySql.Data.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\obj\Release\ResolveAssemblyReference.cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.Resources.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.ProjectInstaller.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.vbproj.GenerateResource.Cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe.config
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\DNForwardURL.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\LibraryDAL.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\log4net.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\LibraryDAL.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Outbound\DNForwardURL\bin\Release\LibraryDAL.xml
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe.config
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\DNForwardURL.pdb
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\LibraryDAL.dll
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\log4net.dll
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\LibraryDAL.pdb
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\LibraryDAL.xml
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\ResolveAssemblyReference.cache
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.Resources.resources
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.ProjectInstaller.resources
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.vbproj.GenerateResource.Cache
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.exe
+E:\development project\Gateway project link svn (cyberjaya)\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\DNForwardURL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.exe
+C:\Users\Ionnex\Desktop\SMSGateway2\Code\Philippines\backend\Outbound\DNForwardURL\obj\Release\DNForwardURL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe.config
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\DNForwardURL.exe
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\DNForwardURL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\LibraryDAL.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\log4net.dll
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\LibraryDAL.pdb
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\bin\Release\LibraryDAL.xml
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\obj\Release\ResolveAssemblyReference.cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.Resources.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.ProjectInstaller.resources
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.vbproj.GenerateResource.Cache
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.exe
+D:\CDU\Source Code\PhilippinesGateway\Outbound\DNForwardURL\obj\Release\DNForwardURL.pdb

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="smsin_stop_all.aspx.vb" Inherits="ReserveKeywordApps.smsin_stop_all" %>

@@ -1,0 +1,34 @@
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.exe.config
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\LibraryDAL.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\log4net.dll
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\LibraryDAL.pdb
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\bin\Release\LibraryDAL.xml
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.Resources.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.ProjectInstaller.resources
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.vbproj.GenerateResource.Cache
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.exe.manifest
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.application
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.exe
+C:\Users\Ionnex\Desktop\SMSGateway\LatestSourceCode\Philippines\backend\PhilippinesGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.exe.config
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.exe.manifest
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.application
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\EGGInsertDN.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\LibraryDAL.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\log4net.dll
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\LibraryDAL.pdb
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\bin\Release\LibraryDAL.xml
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\ResolveAssemblyReference.cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.Resources.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.ProjectInstaller.resources
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.vbproj.GenerateResource.Cache
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.exe.manifest
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.application
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.exe
+E:\development project\Gateway project link svn (kl)\PhilippineGateway\Inbound\EGGInsertDN\obj\Release\EGGInsertDN.pdb
