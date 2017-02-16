@@ -234,17 +234,17 @@ Partial Public Class sendsms
                     'strQueue = SUN_QUEUE_0
                     strQueue = SUN_QUEUE
                 ElseIf lastDigit = "3" Or lastDigit = "4" Or lastDigit = "5" Then
-                    'strQueue = SUN_QUEUE_1
+                    strQueue = SUN_QUEUE_1
                     'strQueue = SUN_QUEUE_0
-                    strQueue = SUN_QUEUE
+                    'strQueue = SUN_QUEUE
                 ElseIf lastDigit = "6" Or lastDigit = "7" Or lastDigit = "8" Then
-                    'strQueue = SUN_QUEUE_2
+                    strQueue = SUN_QUEUE_2
                     'strQueue = SUN_QUEUE_0
-                    strQueue = SUN_QUEUE
+                    'strQueue = SUN_QUEUE
                 Else
-                    'strQueue = SUN_QUEUE_3
+                    strQueue = SUN_QUEUE_3
                     'strQueue = SUN_QUEUE_0
-                    strQueue = SUN_QUEUE
+                    'strQueue = SUN_QUEUE
                 End If
 
                 ''Cross Sell Part added by Patrick 2015-03-09
