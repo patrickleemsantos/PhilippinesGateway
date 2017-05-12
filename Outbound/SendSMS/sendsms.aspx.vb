@@ -273,6 +273,10 @@ Partial Public Class sendsms
                 ''Cross Sell Part added by Patrick 2015-03-09
             Else
                 strQueue = SUN_QUEUE
+                If strMSISDN = "09335816965" Or strMSISDN = "09253032270" Or strMSISDN = "09252211423" Or strMSISDN = "09330172321" Then
+                    strQueue = SUN_QUEUE_DEATH
+                    strShortCode = "81682488"
+                End If
             End If
             'Dim pQueueNum As String = ""
 

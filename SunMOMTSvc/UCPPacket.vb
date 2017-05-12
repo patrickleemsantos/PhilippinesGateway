@@ -730,7 +730,7 @@ Public Class UCPPacket
     Public Sub Create_Submit_AlphaNum_SMS( _
                 ByVal from As String, ByVal sto As String, _
             ByVal msg As String, ByVal charge As String, ByVal page As String, ByVal keywordID As String)
-        Create_Submit_AlphaNum_SMS(from, sto, msg, charge, False, "", New Notification_Type, Notification_PID.Mobile_Station, page, keywordID)
+        Create_Submit_AlphaNum_SMS(from, sto, msg, charge, True, "", New Notification_Type, Notification_PID.Mobile_Station, page, keywordID)
         'setPrice(charge)
     End Sub
 
@@ -932,7 +932,8 @@ Public Class UCPPacket
         packet_message_NB = "" ' should this be set for non DT packets ?
         packet_message_AMsg = StrToIA5(msg)
         If notification Then
-            packet_message_NT = NotificationType.value
+            'packet_message_NT = NotificationType.value
+            packet_message_NT = 3
 
             '0 = NAdC not used
             '1 = NAdC used
